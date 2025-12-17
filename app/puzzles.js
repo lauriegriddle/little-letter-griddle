@@ -184,6 +184,7 @@ export function getTodaysPuzzle() {
   if (estHours < 19 || (estHours === 19 && utcMinutes < 30)) {
     puzzleDate.setDate(puzzleDate.getDate() - 1);
   }
+  puzzleDate.setHours(0, 0, 0, 0);
   
   // Calculate days since epoch for puzzle rotation
   const epochStart = new Date('2025-01-01');
