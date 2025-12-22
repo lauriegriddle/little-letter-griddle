@@ -87,12 +87,14 @@ export default function LittleLetterGriddle() {
         setStats(JSON.parse(savedStats));
       }
       
-      // Check if first visit
-      const hasVisited = localStorage.getItem('littleGriddleVisited');
-      if (!hasVisited) {
-        setShowWelcomeModal(true);
-        localStorage.setItem('littleGriddleVisited', 'true');
-      }
+      // Check if welcome should show (once per day)
+const lastWelcomeDate = localStorage.getItem('littleGriddleLastWelcome');
+const today = new Date().toDateString();
+
+if (lastWelcomeDate !== today) {
+  setShowWelcomeModal(true);
+  localStorage.setItem('littleGriddleLastWelcome', today);
+}
       
       // Check if today's puzzle already completed
       const savedGame = localStorage.getItem(`littleGriddle_${gameData.puzzleNumber}`);
