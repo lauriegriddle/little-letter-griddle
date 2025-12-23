@@ -1484,7 +1484,7 @@ Next puzzle drops at 7:30 PM EST`;
                 </div>
                 <div className="p-3 rounded-xl" style={{ background: 'rgba(60, 60, 100, 0.3)' }}>
                   <p className="text-purple-200 text-xs leading-relaxed">
-                    🌙 A complete lunar cycle takes about 29.5 days—nearly a month, which is where the word "month" comes from.
+                    🌙 A complete lunar cycle takes about 29.5 days, nearly a month, which is where the word "month" comes from.
                   </p>
                 </div>
                 <div className="p-3 rounded-xl" style={{ background: 'rgba(60, 60, 100, 0.3)' }}>
