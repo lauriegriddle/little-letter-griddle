@@ -580,28 +580,36 @@ const copyToClipboard = async (text) => {
         {/* Header */}
         <div className="flex justify-between items-start mb-4">
           {/* Left icons */}
-          <div className="flex gap-2">
-            <button
-              onClick={() => setShowHowToPlayModal(true)}
-              className="p-2 rounded-full transition-all hover:scale-110"
-              style={{ background: 'rgba(139, 92, 246, 0.2)' }}
-              title="How to Play"
-            >
-              <HelpCircle size={20} className="text-purple-300" />
-            </button>
-            <button
-              onClick={() => setShowMusicModal(true)}
-              className="p-2 rounded-full transition-all hover:scale-110"
-              style={{ background: 'rgba(139, 92, 246, 0.2)' }}
-              title="Music"
-            >
-              {isPlaying ? (
-                <Volume2 size={20} className="text-purple-300" />
-              ) : (
-                <VolumeX size={20} className="text-purple-300" />
-              )}
-            </button>
-          </div>
+<div className="flex items-center gap-2 w-40">
+  <a 
+    href="https://lettergriddle.com" 
+    className="flex items-center gap-1 text-purple-300 hover:text-yellow-200 transition-colors"
+    title="Back to Letter Griddle Games"
+  >
+    <span className="text-xl">🥞</span>
+    <span className="text-xs font-semibold hidden sm:inline" style={{fontFamily: 'Georgia, serif'}}>Letter Griddle Games</span>
+  </a>
+  <button
+    onClick={() => setShowHowToPlayModal(true)}
+    className="p-2 rounded-full transition-all hover:scale-110"
+    style={{ background: 'rgba(139, 92, 246, 0.2)' }}
+    title="How to Play"
+  >
+    <HelpCircle size={20} className="text-purple-300" />
+  </button>
+  <button
+    onClick={() => setShowMusicModal(true)}
+    className="p-2 rounded-full transition-all hover:scale-110"
+    style={{ background: 'rgba(139, 92, 246, 0.2)' }}
+    title="Music"
+  >
+    {isPlaying ? (
+      <Volume2 size={20} className="text-purple-300" />
+    ) : (
+      <VolumeX size={20} className="text-purple-300" />
+    )}
+  </button>
+</div>
           
           {/* Center title */}
           <div className="text-center flex-1">
@@ -615,7 +623,7 @@ const copyToClipboard = async (text) => {
           </div>
           
           {/* Right icon */}
-          <div className="flex gap-2">
+<div className="flex gap-2 w-40 justify-end">
             <button
               onClick={() => setShowStatsModal(true)}
               className="text-3xl transition-transform hover:scale-110"
