@@ -461,19 +461,38 @@ if (lastWelcomeDate !== today) {
   };
 
   // Share results
-  const shareResults = () => {
-    const moons = '🌙'.repeat(wordStates.filter(w => w.completed).length);
-    const shareText = `Little Griddle #${gameData.puzzleNumber} 🌙
+  const shareResults = async () => {
+  const moons = '🌙'.repeat(wordStates.filter(w => w.completed).length);
+  const shareText = `Little Griddle #${gameData.puzzleNumber} 🌙
 ${gameData.category}
 ${moons}
 ${wordStates.filter(w => w.completed).length}/3 words
-Play at www.littlelettergriddle.com
-Next puzzle drops at 7:30 PM EST`;
-    
-    navigator.clipboard.writeText(shareText);
+Play at www.littlelettergriddle.com`;
+
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        text: shareText
+      });
+    } catch (err) {
+      if (err.name !== 'AbortError') {
+        copyToClipboard(shareText);
+      }
+    }
+  } else {
+    copyToClipboard(shareText);
+  }
+};
+
+const copyToClipboard = async (text) => {
+  try {
+    await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
-  };
+  } catch (err) {
+    console.error('Failed to copy:', err);
+  }
+};
 
   // Format elapsed time
   const formatElapsedTime = (seconds) => {
