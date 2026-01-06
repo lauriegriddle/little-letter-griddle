@@ -467,7 +467,10 @@ if (lastWelcomeDate !== today) {
 ${gameData.category}
 ${moons}
 ${wordStates.filter(w => w.completed).length}/3 words
-Play at www.littlelettergriddle.com`;
+Play at www.littlelettergriddle.com
+Free & ad-free!
+Part of the Letter Griddle Games 🥞
+More games: lettergriddle.com`;
 
   if (navigator.share) {
     try {
