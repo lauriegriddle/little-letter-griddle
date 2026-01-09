@@ -163,8 +163,90 @@ export const puzzles = [
       { word: "JACKET", hint: "A light outer layer" },
       { word: "SWEATER", hint: "A knitted top for chilly days" }
     ]
+  },
+  {
+    category: "Moving Through the Air",
+    puzzleNumber: 19,
+    words: [
+      { word: "SOAR", hint: "To fly high without flapping wings" },
+      { word: "GLIDE", hint: "To move smoothly through the air with little effort" },
+      { word: "CRUISE", hint: "To travel at a steady, comfortable speed" }
+    ]
+  },
+  {
+    category: "Animated Film Characters",
+    puzzleNumber: 20,
+    words: [
+      { word: "LILO", hint: "Hawaiian girl who adopts an unusual pet from space" },
+      { word: "SHREK", hint: "Green ogre who lives in a swamp and rescues a princess" },
+      { word: "STITCH", hint: "Blue alien experiment 626 who becomes part of a family" }
+    ]
+  },
+  {
+    category: "Air Travel",
+    puzzleNumber: 21,
+    words: [
+      { word: "PASS", hint: "A boarding document that lets you on the plane" },
+      { word: "PILOT", hint: "The person who flies the aircraft" },
+      { word: "FLIGHT", hint: "A journey through the air from one place to another" }
+    ]
+  },
+  {
+    category: "Say \"Cheese!\"",
+    puzzleNumber: 22,
+    words: [
+      { word: "BRIE", hint: "Soft French cheese with an edible white rind" },
+      { word: "SWISS", hint: "Cheese known for its signature holes" },
+      { word: "ASIAGO", hint: "Italian cheese often grated over pasta and salads" }
+    ]
+  },
+  {
+    category: "Lunch",
+    puzzleNumber: 23,
+    words: [
+      { word: "SOUP", hint: "A warm liquid dish often served in a bowl with a spoon" },
+      { word: "SALAD", hint: "A mix of leafy greens and vegetables, often with dressing" },
+      { word: "MIDDAY", hint: "The time of day when lunch is typically eaten" }
+    ]
+  },
+  {
+    category: "Spices",
+    puzzleNumber: 24,
+    words: [
+      { word: "SALT", hint: "Essential seasoning that enhances flavor in almost every dish" },
+      { word: "THYME", hint: "Fragrant herb with tiny leaves, often used in soups and roasts" },
+      { word: "PEPPER", hint: "Common table seasoning that adds a bit of heat and kick" }
+    ]
+  },
+  {
+    category: "Cats",
+    puzzleNumber: 25,
+    words: [
+      { word: "MEOW", hint: "The signature sound a cat makes to communicate" },
+      { word: "FURRY", hint: "Covered in soft, fluffy hair perfect for petting" },
+      { word: "KITTEN", hint: "A baby cat, playful and full of energy" }
+    ]
+  },
+  {
+    category: "Dogs",
+    puzzleNumber: 26,
+    words: [
+      { word: "BONE", hint: "A favorite chew treat that dogs love to gnaw on" },
+      { word: "HOUND", hint: "A type of dog bred for hunting, known for its keen sense of smell" },
+      { word: "BEAGLE", hint: "Friendly breed with floppy ears, famous for its nose and howl" }
+    ]
+  },
+  {
+    category: "In the Kitchen",
+    puzzleNumber: 27,
+    words: [
+      { word: "SINK", hint: "Basin with a faucet where you wash dishes and rinse food" },
+      { word: "STOVE", hint: "Appliance with burners used for cooking food in pots and pans" },
+      { word: "RECIPE", hint: "Written instructions that tell you how to prepare a dish" }
+    ]
   }
 ];
+
 
 // Get today's puzzle based on date
 // Puzzles change at 7:30 PM EST daily
