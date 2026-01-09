@@ -244,6 +244,114 @@ export const puzzles = [
       { word: "STOVE", hint: "Appliance with burners used for cooking food in pots and pans" },
       { word: "RECIPE", hint: "Written instructions that tell you how to prepare a dish" }
     ]
+  },
+  {
+    category: "Pancakes",
+    puzzleNumber: 28,
+    words: [
+      { word: "EGGS", hint: "Ingredient that helps bind the batter together" },
+      { word: "FLOUR", hint: "The main dry ingredient that gives pancakes their structure" },
+      { word: "SYRUP", hint: "Sweet, sticky topping poured generously over a stack" }
+    ]
+  },
+  {
+    category: "Musical Instruments",
+    puzzleNumber: 29,
+    words: [
+      { word: "LYRE", hint: "Ancient stringed instrument played by Greek poets and musicians" },
+      { word: "FLUTE", hint: "Woodwind instrument played by blowing air across an opening" },
+      { word: "GUITAR", hint: "Six-stringed instrument popular in rock, country, and folk music" }
+    ]
+  },
+  {
+    category: "Soup",
+    puzzleNumber: 30,
+    words: [
+      { word: "TACO", hint: "Tex-Mex soup topped with tortilla strips, cheese, and avocado" },
+      { word: "BROTH", hint: "Clear, savory liquid made by simmering meat or vegetables" },
+      { word: "BISQUE", hint: "Creamy, rich soup often made with shellfish like lobster or crab" }
+    ]
+  },
+  {
+    category: "Ways to Go",
+    puzzleNumber: 31,
+    words: [
+      { word: "LANE", hint: "A narrow path or single division of a roadway" },
+      { word: "DRIVE", hint: "A private road leading to a house, or a scenic route" },
+      { word: "STREET", hint: "A public road in a city or town, usually lined with buildings" }
+    ]
+  },
+  {
+    category: "Pasta",
+    puzzleNumber: 32,
+    words: [
+      { word: "ZITI", hint: "Tube-shaped pasta often baked with cheese and marinara sauce" },
+      { word: "PENNE", hint: "Cylinder pasta cut at an angle, perfect for holding chunky sauces" },
+      { word: "SKETTY", hint: "Playful nickname for spaghetti, often used by kids" }
+    ]
+  },
+  {
+    category: "Breakfast",
+    puzzleNumber: 33,
+    words: [
+      { word: "MEAL", hint: "The first food you eat to start your day" },
+      { word: "BACON", hint: "Crispy strips of cured pork, a breakfast favorite" },
+      { word: "CEREAL", hint: "Crunchy grains served in a bowl with milk" }
+    ]
+  },
+  {
+    category: "Cooking",
+    puzzleNumber: 34,
+    words: [
+      { word: "CHOP", hint: "To cut food into smaller pieces with a knife" },
+      { word: "WHISK", hint: "To beat ingredients quickly with a wire tool to blend or add air" },
+      { word: "SEARED", hint: "Cooked at high heat to create a flavorful brown crust" }
+    ]
+  },
+  {
+    category: "A Dish to Pass",
+    puzzleNumber: 35,
+    words: [
+      { word: "FARE", hint: "Food or meals, especially the type served at an event" },
+      { word: "FEAST", hint: "A large, celebratory meal shared with many people" },
+      { word: "PICNIC", hint: "An outdoor meal where everyone brings food to share" }
+    ]
+  },
+  {
+    category: "Brunch",
+    puzzleNumber: 36,
+    words: [
+      { word: "COZY", hint: "A warm, comfortable feeling perfect for a lazy morning meal" },
+      { word: "TOAST", hint: "Crispy browned bread, often topped with avocado or jam" },
+      { word: "QUICHE", hint: "Savory egg pie with cheese and fillings baked in a crust" }
+    ]
+  },
+  {
+    category: "Pizza, pizza!",
+    puzzleNumber: 37,
+    words: [
+      { word: "MEAT", hint: "A savory protein topping category for pizza" },
+      { word: "SAUCE", hint: "Tomato-based spread that goes on the dough" },
+      { word: "TOMATO", hint: "Red fruit used as the base for pizza sauce" }
+    ]
+  },
+  {
+    category: "Deserts",
+    puzzleNumber: 38,
+    words: [
+      { word: "ARID", hint: "Extremely dry, with little or no rainfall" },
+      { word: "OASIS", hint: "A fertile green spot in a desert where water is found" },
+      { word: "CACTUS", hint: "A spiny plant that thrives in dry, hot environments" }
+    ]
+  },
+  {
+    category: "Backpack",
+    puzzleNumber: 39,
+    words: [
+      { word: "TOTE", hint: "A large bag for carrying items, often open at the top" },
+      { word: "STRAP", hint: "A strip of material used to secure or carry something" },
+      { word: "POCKET", hint: "A small pouch sewn into a bag for storing items" }
+    ]
   }
 ];
 
