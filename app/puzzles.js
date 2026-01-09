@@ -377,7 +377,7 @@ export function getTodaysPuzzle() {
   puzzleDate.setHours(0, 0, 0, 0);
   
   // Calculate days since epoch for puzzle rotation
-  const epochStart = new Date('2025-01-01');
+  const epochStart = new Date('2026-01-09');
   const daysSinceEpoch = Math.floor((puzzleDate - epochStart) / (1000 * 60 * 60 * 24));
   
   // Get puzzle index (cycles through all puzzles)
