@@ -22,7 +22,7 @@ export default function TermsOfService() {
           <h1 className="text-2xl text-yellow-100 font-light" style={{ fontFamily: 'Georgia, serif' }}>
             Terms of Service
           </h1>
-          <p className="text-purple-300 text-sm mt-2">Last updated: December 2025</p>
+          <p className="text-purple-300 text-sm mt-2">Last updated: January 14, 2026</p>
         </div>
         
         <div className="space-y-6 text-purple-200" style={{
@@ -77,6 +77,15 @@ export default function TermsOfService() {
             </h2>
             <p className="text-sm leading-relaxed">
               Little Letter Griddle, including its design, puzzles, and content, is the property of its creators. All rights reserved.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-yellow-100 text-lg mb-3" style={{ fontFamily: 'Georgia, serif' }}>
+              Fictional Content
+            </h2>
+            <p className="text-sm leading-relaxed">
+              Little Letter Griddle, including the Letter Griddle Cafe, the town of Griddle Falls, the Trivia Crew characters, and all related stories, vignettes, and recipes, is a work of fiction. All characters, locations, and events are products of the creator's imagination. Any resemblance to actual persons, living or dead, businesses, events, or locales is entirely coincidental.
             </p>
           </section>
           
