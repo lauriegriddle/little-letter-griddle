@@ -192,7 +192,7 @@ export const puzzles = [
     ]
   },
   {
-    category: "Say \"Cheese!\"",
+    category: "Cheese",
     puzzleNumber: 22,
     words: [
       { word: "BRIE", hint: "Soft French cheese with an edible white rind" },
