@@ -352,6 +352,159 @@ export const puzzles = [
       { word: "STRAP", hint: "A strip of material used to secure or carry something" },
       { word: "POCKET", hint: "A small pouch sewn into a bag for storing items" }
     ]
+  },
+  {
+    category: "Candy II",
+    puzzleNumber: 40,
+    words: [
+      { word: "MINT", hint: "A refreshing flavor often found in chocolate or hard candies" },
+      { word: "SWEET", hint: "The taste that all candy has in common" },
+      { word: "NOUGAT", hint: "Chewy, fluffy filling found inside candy bars" }
+    ]
+  },
+  {
+    category: "Autumn II",
+    puzzleNumber: 41,
+    words: [
+      { word: "RAKE", hint: "Tool used to gather fallen leaves" },
+      { word: "CIDER", hint: "A warm apple drink perfect for cool weather" },
+      { word: "ORANGE", hint: "A popular fall color seen in leaves and pumpkins" }
+    ]
+  },
+  {
+    category: "Hiking II",
+    puzzleNumber: 42,
+    words: [
+      { word: "PATH", hint: "A walkway through the woods" },
+      { word: "CLIMB", hint: "To go upward on a steep trail" },
+      { word: "NATURE", hint: "The great outdoors you experience on a hike" }
+    ]
+  },
+  {
+    category: "Dessert II",
+    puzzleNumber: 43,
+    words: [
+      { word: "TART", hint: "A small pastry with a sweet or fruity filling" },
+      { word: "FUDGE", hint: "A rich, chocolatey square treat" },
+      { word: "MOUSSE", hint: "A light, airy whipped chocolate treat" }
+    ]
+  },
+  {
+    category: "Fruits II",
+    puzzleNumber: 44,
+    words: [
+      { word: "KIWI", hint: "A fuzzy brown fruit that's green inside" },
+      { word: "MANGO", hint: "A sweet tropical fruit with orange flesh" },
+      { word: "BANANA", hint: "A yellow fruit that comes in a bunch" }
+    ]
+  },
+  {
+    category: "Animals II",
+    puzzleNumber: 45,
+    words: [
+      { word: "FROG", hint: "A hopping amphibian that says ribbit" },
+      { word: "MOOSE", hint: "A large animal with impressive antlers" },
+      { word: "GOPHER", hint: "A burrowing rodent that digs tunnels" }
+    ]
+  },
+  {
+    category: "Occupations II",
+    puzzleNumber: 46,
+    words: [
+      { word: "COOK", hint: "Someone who prepares food for a living" },
+      { word: "PILOT", hint: "A person who flies aircraft" },
+      { word: "LAWYER", hint: "A professional who practices law" }
+    ]
+  },
+  {
+    category: "Sports II",
+    puzzleNumber: 47,
+    words: [
+      { word: "POLO", hint: "A sport played on horseback with mallets" },
+      { word: "RUGBY", hint: "A tackle sport similar to football" },
+      { word: "HOCKEY", hint: "A fast-paced game played on ice with pucks" }
+    ]
+  },
+  {
+    category: "U.S. States II",
+    puzzleNumber: 48,
+    words: [
+      { word: "IOWA", hint: "The Hawkeye State in the Midwest" },
+      { word: "MAINE", hint: "The Pine Tree State in the northeast" },
+      { word: "OREGON", hint: "The Beaver State on the Pacific coast" }
+    ]
+  },
+  {
+    category: "School Days II",
+    puzzleNumber: 49,
+    words: [
+      { word: "TEST", hint: "An exam to measure what you've learned" },
+      { word: "CHALK", hint: "Used to write on a blackboard" },
+      { word: "ERASER", hint: "Removes pencil marks from paper" }
+    ]
+  },
+  {
+    category: "Trees and Shrubs II",
+    puzzleNumber: 50,
+    words: [
+      { word: "PINE", hint: "An evergreen tree with needles and cones" },
+      { word: "BIRCH", hint: "A tree known for its white, papery bark" },
+      { word: "SPRUCE", hint: "A tall evergreen often used as a Christmas tree" }
+    ]
+  },
+  {
+    category: "Movie Titles II",
+    puzzleNumber: 51,
+    words: [
+      { word: "CARS", hint: "A Pixar film about a race car named Lightning McQueen" },
+      { word: "GHOST", hint: "A 1990 romantic fantasy with Patrick Swayze" },
+      { word: "GREASE", hint: "A musical set in the 1950s with John Travolta" }
+    ]
+  },
+  {
+    category: "Colors II",
+    puzzleNumber: 52,
+    words: [
+      { word: "GOLD", hint: "A shiny, metallic yellow shade" },
+      { word: "CORAL", hint: "A pinkish-orange color named after sea life" },
+      { word: "VIOLET", hint: "A purple shade named after a flower" }
+    ]
+  },
+  {
+    category: "International Foods II",
+    puzzleNumber: 53,
+    words: [
+      { word: "PITA", hint: "A flatbread from the Middle East" },
+      { word: "CREPE", hint: "A thin French pancake" },
+      { word: "HUMMUS", hint: "A Middle Eastern dip made from chickpeas" }
+    ]
+  },
+  {
+    category: "Games II",
+    puzzleNumber: 54,
+    words: [
+      { word: "POOL", hint: "A game played with cue sticks and balls on a table" },
+      { word: "DARTS", hint: "A throwing game aimed at a circular board" },
+      { word: "TETRIS", hint: "A classic video game where you stack falling blocks" }
+    ]
+  },
+  {
+    category: "Cities Around the World II",
+    puzzleNumber: 55,
+    words: [
+      { word: "ROME", hint: "Italy's capital, home to the Colosseum" },
+      { word: "DUBAI", hint: "A glamorous city in the United Arab Emirates" },
+      { word: "SYDNEY", hint: "Australia's largest city, known for its opera house" }
+    ]
+  },
+  {
+    category: "Cool Weather Clothing II",
+    puzzleNumber: 56,
+    words: [
+      { word: "COAT", hint: "A warm outer layer for cold days" },
+      { word: "BOOTS", hint: "Footwear that keeps your feet warm and dry" },
+      { word: "BEANIE", hint: "A snug knit cap that covers your ears" }
+    ]
   }
 ];
 
