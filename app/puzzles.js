@@ -513,63 +513,58 @@ export const puzzles = [
 // Puzzles change at 7:30 PM EST daily
 export function getTodaysPuzzle() {
   const now = new Date();
+  const estTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
   
-  // Convert to EST
-  const estOffset = -5; // EST is UTC-5
-  const utcHours = now.getUTCHours();
-  const utcMinutes = now.getUTCMinutes();
-  const estHours = (utcHours + estOffset + 24) % 24;
+  const hour = estTime.getHours();
+  const minutes = estTime.getMinutes();
   
-  // Create a date object for puzzle calculation
-  let puzzleDate = new Date(now);
+  // Create puzzle date
+  let puzzleDate = new Date(estTime);
   
-  // If before 7:30 PM EST, use previous day's puzzle
-  if (estHours < 19 || (estHours === 19 && utcMinutes < 30)) {
+  // If before 7:30 PM, use previous day's puzzle
+  if (hour < 19 || (hour === 19 && minutes < 30)) {
     puzzleDate.setDate(puzzleDate.getDate() - 1);
   }
-  puzzleDate.setHours(0, 0, 0, 0);
+  puzzleDate.setHours(19, 30, 0, 0);
   
-  // Calculate days since epoch for puzzle rotation
-  const epochStart = new Date('2026-01-09');
-  const daysSinceEpoch = Math.floor((puzzleDate - epochStart) / (1000 * 60 * 60 * 24));
+  // Anchor date: January 9, 2026 at 7:30 PM (when index 0 started)
+  const anchorDate = new Date(2026, 0, 9, 19, 30, 0, 0); // Month is 0-indexed, so 0 = January
+  
+  // Calculate days since anchor
+  const daysSinceAnchor = Math.round((puzzleDate - anchorDate) / (1000 * 60 * 60 * 24));
   
   // Get puzzle index (cycles through all puzzles)
-  const puzzleIndex = Math.abs(daysSinceEpoch) % puzzles.length;
+  const puzzleIndex = ((daysSinceAnchor % puzzles.length) + puzzles.length) % puzzles.length;
   
   return {
     ...puzzles[puzzleIndex],
-    puzzleNumber: Math.abs(daysSinceEpoch) + 1 // Display number starts at 1
+    puzzleNumber: daysSinceAnchor + 1 // Display number starts at 1
   };
 }
 
 // Get time until next puzzle (7:30 PM EST)
 export function getTimeUntilNextPuzzle() {
   const now = new Date();
+  const estTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
   
-  // Convert to EST
-  const estOffset = -5;
-  const utcHours = now.getUTCHours();
-  const utcMinutes = now.getUTCMinutes();
-  const estHours = (utcHours + estOffset + 24) % 24;
+  const hour = estTime.getHours();
+  const minutes = estTime.getMinutes();
   
-  // Calculate next 7:30 PM EST
-  let nextPuzzle = new Date(now);
+  // Calculate next 7:30 PM
+  let nextPuzzle = new Date(estTime);
+  nextPuzzle.setHours(19, 30, 0, 0);
   
-  // If it's already past 7:30 PM EST, next puzzle is tomorrow
-  if (estHours > 19 || (estHours === 19 && utcMinutes >= 30)) {
+  // If it's already past 7:30 PM, next puzzle is tomorrow
+  if (hour > 19 || (hour === 19 && minutes >= 30)) {
     nextPuzzle.setDate(nextPuzzle.getDate() + 1);
   }
   
-  // Set to 7:30 PM EST (which is 00:30 UTC next day during EST, or adjusted for current UTC offset)
-  nextPuzzle.setUTCHours(19 + 5, 30, 0, 0); // 7:30 PM EST = 00:30 UTC next day
-  
-  const diff = nextPuzzle - now;
-  
+  const diff = nextPuzzle - estTime;
   const hours = Math.floor(diff / (1000 * 60 * 60));
-  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
   const seconds = Math.floor((diff % (1000 * 60)) / 1000);
   
-  return { hours, minutes, seconds, total: diff };
+  return { hours, minutes: mins, seconds, total: diff };
 }
 
 // Multilingual completion messages
