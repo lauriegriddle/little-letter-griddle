@@ -2,510 +2,682 @@
 // Each puzzle uses the first 3 words from the corresponding Letter Griddle puzzle
 
 export const puzzles = [
+  // =============================================
+  // INDEX 0
+  // =============================================
   {
-    category: "Candy",
+    category: "New Beginnings",
     puzzleNumber: 1,
     words: [
-      { word: "FUDGE", hint: "A soft, rich chocolate confection" },
-      { word: "TAFFY", hint: "A chewy candy that's pulled and stretched" },
-      { word: "CARAMEL", hint: "A golden-brown candy made from heated sugar" }
-    ]
+      { word: "ANEW", hint: "Starting over again, fresh and renewed" },
+      { word: "FRESH", hint: "Clean and new, like the start of a new year" },
+      { word: "DREAMY", hint: "Full of hopes and imaginative visions for the future" },
+    ],
   },
+
+  // =============================================
+  // INDEX 1
+  // =============================================
   {
-    category: "Autumn",
+    category: "Buffet",
     puzzleNumber: 2,
     words: [
-      { word: "LEAF", hint: "Falls from trees in colorful shades" },
-      { word: "APPLE", hint: "A crisp fruit perfect for picking" },
-      { word: "HARVEST", hint: "The season's gathering of crops" }
-    ]
+      { word: "DINE", hint: "To eat a meal, especially in a formal or elegant setting" },
+      { word: "FEAST", hint: "A large, elaborate meal celebrating a special occasion" },
+      { word: "SUPPER", hint: "An evening meal, often lighter or more casual than dinner" },
+    ],
   },
-  {
-    category: "Hiking",
-    puzzleNumber: 3,
-    words: [
-      { word: "TRAIL", hint: "A path through nature" },
-      { word: "BOOTS", hint: "Sturdy footwear for rough terrain" },
-      { word: "SUMMIT", hint: "The peak of a mountain" }
-    ]
-  },
-  {
-    category: "Dessert",
-    puzzleNumber: 4,
-    words: [
-      { word: "CAKE", hint: "A layered treat often topped with frosting" },
-      { word: "COOKIE", hint: "A small, sweet baked good" },
-      { word: "BROWNIE", hint: "A dense, chocolatey square" }
-    ]
-  },
-  {
-    category: "What's in the bag?",
-    puzzleNumber: 5,
-    words: [
-      { word: "KEYS", hint: "Unlock doors and start cars" },
-      { word: "PHONE", hint: "A device for calls and texts" },
-      { word: "WALLET", hint: "Holds cards and cash" }
-    ]
-  },
-  {
-    category: "Fruits",
-    puzzleNumber: 6,
-    words: [
-      { word: "PEAR", hint: "A sweet fruit with a distinctive shape" },
-      { word: "GRAPE", hint: "Small and often found in bunches" },
-      { word: "ORANGE", hint: "A citrus fruit that shares its name with a color" }
-    ]
-  },
-  {
-    category: "Animals",
-    puzzleNumber: 7,
-    words: [
-      { word: "BEAR", hint: "A large mammal that hibernates" },
-      { word: "EAGLE", hint: "A majestic bird of prey" },
-      { word: "RABBIT", hint: "A hopping creature with long ears" }
-    ]
-  },
-  {
-    category: "Occupations",
-    puzzleNumber: 8,
-    words: [
-      { word: "CHEF", hint: "Creates delicious dishes in a kitchen" },
-      { word: "NURSE", hint: "Provides medical care to patients" },
-      { word: "ARTIST", hint: "Creates visual works of beauty" }
-    ]
-  },
-  {
-    category: "Sports",
-    puzzleNumber: 9,
-    words: [
-      { word: "GOLF", hint: "A game played with clubs and small balls" },
-      { word: "TENNIS", hint: "Played with rackets over a net" },
-      { word: "SOCCER", hint: "The world's most popular sport" }
-    ]
-  },
-  {
-    category: "U.S. States",
-    puzzleNumber: 10,
-    words: [
-      { word: "OHIO", hint: "The Buckeye State" },
-      { word: "TEXAS", hint: "The Lone Star State" },
-      { word: "ALASKA", hint: "The largest U.S. state by area" }
-    ]
-  },
-  {
-    category: "School Days",
-    puzzleNumber: 11,
-    words: [
-      { word: "DESK", hint: "Where students sit and work" },
-      { word: "PENCIL", hint: "A writing tool with graphite" },
-      { word: "TEACHER", hint: "Guides students in learning" }
-    ]
-  },
-  {
-    category: "Trees and Shrubs",
-    puzzleNumber: 12,
-    words: [
-      { word: "OAK", hint: "A strong tree that produces acorns" },
-      { word: "MAPLE", hint: "Known for its colorful fall leaves and syrup" },
-      { word: "WILLOW", hint: "A tree with long, drooping branches" }
-    ]
-  },
-  {
-    category: "Movie Titles",
-    puzzleNumber: 13,
-    words: [
-      { word: "JAWS", hint: "A 1975 thriller about a great white shark" },
-      { word: "ROCKY", hint: "A boxing underdog story" },
-      { word: "FROZEN", hint: "A Disney film about two sisters" }
-    ]
-  },
-  {
-    category: "Colors",
-    puzzleNumber: 14,
-    words: [
-      { word: "BLUE", hint: "The color of a clear sky on a sunny day" },
-      { word: "BEIGE", hint: "A neutral sandy or tan shade often used in interior design" },
-      { word: "INDIGO", hint: "A deep purple-blue color between blue and violet in the rainbow" }
-    ]
-  },
-  {
-    category: "International Foods",
-    puzzleNumber: 15,
-    words: [
-      { word: "SUSHI", hint: "Japanese dish with vinegared rice" },
-      { word: "PASTA", hint: "Italian staple made from wheat" },
-      { word: "TACOS", hint: "Mexican food in a folded tortilla" }
-    ]
-  },
-  {
-    category: "Games",
-    puzzleNumber: 16,
-    words: [
-      { word: "CHESS", hint: "A strategic board game with kings and queens" },
-      { word: "POKER", hint: "A card game of skill and bluffing" },
-      { word: "SCRABBLE", hint: "A word game with letter tiles" }
-    ]
-  },
-  {
-    category: "Cities Around the World",
-    puzzleNumber: 17,
-    words: [
-      { word: "PARIS", hint: "The City of Light in France" },
-      { word: "TOKYO", hint: "Japan's bustling capital" },
-      { word: "LONDON", hint: "Home to Big Ben and the Thames" }
-    ]
-  },
-  {
-    category: "Cool Weather Clothing",
-    puzzleNumber: 18,
-    words: [
-      { word: "SCARF", hint: "Wraps around your neck for warmth" },
-      { word: "JACKET", hint: "A light outer layer" },
-      { word: "SWEATER", hint: "A knitted top for chilly days" }
-    ]
-  },
-  {
-    category: "Moving Through the Air",
-    puzzleNumber: 19,
-    words: [
-      { word: "SOAR", hint: "To fly high without flapping wings" },
-      { word: "GLIDE", hint: "To move smoothly through the air with little effort" },
-      { word: "CRUISE", hint: "To travel at a steady, comfortable speed" }
-    ]
-  },
-  {
-    category: "Animated Film Characters",
-    puzzleNumber: 20,
-    words: [
-      { word: "LILO", hint: "Hawaiian girl who adopts an unusual pet from space" },
-      { word: "SHREK", hint: "Green ogre who lives in a swamp and rescues a princess" },
-      { word: "STITCH", hint: "Blue alien experiment 626 who becomes part of a family" }
-    ]
-  },
-  {
-    category: "Air Travel",
-    puzzleNumber: 21,
-    words: [
-      { word: "PASS", hint: "A boarding document that lets you on the plane" },
-      { word: "PILOT", hint: "The person who flies the aircraft" },
-      { word: "FLIGHT", hint: "A journey through the air from one place to another" }
-    ]
-  },
-  {
-    category: "Cheese",
-    puzzleNumber: 22,
-    words: [
-      { word: "BRIE", hint: "Soft French cheese with an edible white rind" },
-      { word: "SWISS", hint: "Cheese known for its signature holes" },
-      { word: "ASIAGO", hint: "Italian cheese often grated over pasta and salads" }
-    ]
-  },
-  {
-    category: "Lunch",
-    puzzleNumber: 23,
-    words: [
-      { word: "SOUP", hint: "A warm liquid dish often served in a bowl with a spoon" },
-      { word: "SALAD", hint: "A mix of leafy greens and vegetables, often with dressing" },
-      { word: "MIDDAY", hint: "The time of day when lunch is typically eaten" }
-    ]
-  },
-  {
-    category: "Spices",
-    puzzleNumber: 24,
-    words: [
-      { word: "SALT", hint: "Essential seasoning that enhances flavor in almost every dish" },
-      { word: "THYME", hint: "Fragrant herb with tiny leaves, often used in soups and roasts" },
-      { word: "PEPPER", hint: "Common table seasoning that adds a bit of heat and kick" }
-    ]
-  },
-  {
-    category: "Cats",
-    puzzleNumber: 25,
-    words: [
-      { word: "MEOW", hint: "The signature sound a cat makes to communicate" },
-      { word: "FURRY", hint: "Covered in soft, fluffy hair perfect for petting" },
-      { word: "KITTEN", hint: "A baby cat, playful and full of energy" }
-    ]
-  },
-  {
-    category: "Dogs",
-    puzzleNumber: 26,
-    words: [
-      { word: "BONE", hint: "A favorite chew treat that dogs love to gnaw on" },
-      { word: "HOUND", hint: "A type of dog bred for hunting, known for its keen sense of smell" },
-      { word: "BEAGLE", hint: "Friendly breed with floppy ears, famous for its nose and howl" }
-    ]
-  },
-  {
-    category: "In the Kitchen",
-    puzzleNumber: 27,
-    words: [
-      { word: "SINK", hint: "Basin with a faucet where you wash dishes and rinse food" },
-      { word: "STOVE", hint: "Appliance with burners used for cooking food in pots and pans" },
-      { word: "RECIPE", hint: "Written instructions that tell you how to prepare a dish" }
-    ]
-  },
-  {
-    category: "Pancakes",
-    puzzleNumber: 28,
-    words: [
-      { word: "EGGS", hint: "Ingredient that helps bind the batter together" },
-      { word: "FLOUR", hint: "The main dry ingredient that gives pancakes their structure" },
-      { word: "SYRUP", hint: "Sweet, sticky topping poured generously over a stack" }
-    ]
-  },
-  {
-    category: "Musical Instruments",
-    puzzleNumber: 29,
-    words: [
-      { word: "LYRE", hint: "Ancient stringed instrument played by Greek poets and musicians" },
-      { word: "FLUTE", hint: "Woodwind instrument played by blowing air across an opening" },
-      { word: "GUITAR", hint: "Six-stringed instrument popular in rock, country, and folk music" }
-    ]
-  },
-  {
-    category: "Soup",
-    puzzleNumber: 30,
-    words: [
-      { word: "TACO", hint: "Tex-Mex soup topped with tortilla strips, cheese, and avocado" },
-      { word: "BROTH", hint: "Clear, savory liquid made by simmering meat or vegetables" },
-      { word: "BISQUE", hint: "Creamy, rich soup often made with shellfish like lobster or crab" }
-    ]
-  },
-  {
-    category: "Ways to Go",
-    puzzleNumber: 31,
-    words: [
-      { word: "LANE", hint: "A narrow path or single division of a roadway" },
-      { word: "DRIVE", hint: "A private road leading to a house, or a scenic route" },
-      { word: "STREET", hint: "A public road in a city or town, usually lined with buildings" }
-    ]
-  },
-  {
-    category: "Pasta",
-    puzzleNumber: 32,
-    words: [
-      { word: "ZITI", hint: "Tube-shaped pasta often baked with cheese and marinara sauce" },
-      { word: "PENNE", hint: "Cylinder pasta cut at an angle, perfect for holding chunky sauces" },
-      { word: "SKETTY", hint: "Playful nickname for spaghetti, often used by kids" }
-    ]
-  },
-  {
-    category: "Breakfast",
-    puzzleNumber: 33,
-    words: [
-      { word: "MEAL", hint: "The first food you eat to start your day" },
-      { word: "BACON", hint: "Crispy strips of cured pork, a breakfast favorite" },
-      { word: "CEREAL", hint: "Crunchy grains served in a bowl with milk" }
-    ]
-  },
-  {
-    category: "Cooking",
-    puzzleNumber: 34,
-    words: [
-      { word: "CHOP", hint: "To cut food into smaller pieces with a knife" },
-      { word: "WHISK", hint: "To beat ingredients quickly with a wire tool to blend or add air" },
-      { word: "SEARED", hint: "Cooked at high heat to create a flavorful brown crust" }
-    ]
-  },
-  {
-    category: "A Dish to Pass",
-    puzzleNumber: 35,
-    words: [
-      { word: "FARE", hint: "Food or meals, especially the type served at an event" },
-      { word: "FEAST", hint: "A large, celebratory meal shared with many people" },
-      { word: "PICNIC", hint: "An outdoor meal where everyone brings food to share" }
-    ]
-  },
-  {
-    category: "Brunch",
-    puzzleNumber: 36,
-    words: [
-      { word: "COZY", hint: "A warm, comfortable feeling perfect for a lazy morning meal" },
-      { word: "TOAST", hint: "Crispy browned bread, often topped with avocado or jam" },
-      { word: "QUICHE", hint: "Savory egg pie with cheese and fillings baked in a crust" }
-    ]
-  },
-  {
-    category: "Pizza, pizza!",
-    puzzleNumber: 37,
-    words: [
-      { word: "MEAT", hint: "A savory protein topping category for pizza" },
-      { word: "SAUCE", hint: "Tomato-based spread that goes on the dough" },
-      { word: "TOMATO", hint: "Red fruit used as the base for pizza sauce" }
-    ]
-  },
+
+  // =============================================
+  // INDEX 2
+  // =============================================
   {
     category: "Deserts",
-    puzzleNumber: 38,
+    puzzleNumber: 3,
     words: [
       { word: "ARID", hint: "Extremely dry, with little or no rainfall" },
       { word: "OASIS", hint: "A fertile green spot in a desert where water is found" },
-      { word: "CACTUS", hint: "A spiny plant that thrives in dry, hot environments" }
-    ]
+      { word: "CACTUS", hint: "A spiny plant that thrives in dry, hot environments" },
+    ],
   },
+
+  // =============================================
+  // INDEX 3
+  // =============================================
+  {
+    category: "Cereal",
+    puzzleNumber: 4,
+    words: [
+      { word: "OATS", hint: "A hearty grain often eaten as oatmeal or in granola" },
+      { word: "WHEAT", hint: "A golden grain used to make bread and pasta" },
+      { word: "BARLEY", hint: "An ancient grain used in soups, stews, and brewing beer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 4
+  // =============================================
+  {
+    category: "Ensemble",
+    puzzleNumber: 5,
+    words: [
+      { word: "GARB", hint: "Clothing or dress, especially of a distinctive style" },
+      { word: "COVER", hint: "Something worn to protect or conceal the body" },
+      { word: "OUTFIT", hint: "A coordinated set of clothes worn together" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 5
+  // =============================================
   {
     category: "Backpack",
-    puzzleNumber: 39,
+    puzzleNumber: 6,
     words: [
       { word: "TOTE", hint: "A large bag for carrying items, often open at the top" },
       { word: "STRAP", hint: "A strip of material used to secure or carry something" },
-      { word: "POCKET", hint: "A small pouch sewn into a bag for storing items" }
-    ]
+      { word: "POCKET", hint: "A small pouch sewn into a bag for storing items" },
+    ],
   },
+
+  // =============================================
+  // INDEX 6
+  // =============================================
   {
-    category: "Candy II",
+    category: "Water",
+    puzzleNumber: 7,
+    words: [
+      { word: "FLOW", hint: "To move steadily and continuously in a current" },
+      { word: "VAPOR", hint: "Water in its gaseous form, like steam or mist" },
+      { word: "STREAM", hint: "A small, narrow river flowing through the land" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 7
+  // =============================================
+  {
+    category: "Road Trip",
+    puzzleNumber: 8,
+    words: [
+      { word: "ROAM", hint: "To travel aimlessly from place to place" },
+      { word: "JAUNT", hint: "A short journey taken for pleasure" },
+      { word: "WANDER", hint: "To walk or travel without a fixed destination" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 8
+  // =============================================
+  {
+    category: "Weather",
+    puzzleNumber: 9,
+    words: [
+      { word: "WIND", hint: "Moving air caused by differences in atmospheric pressure" },
+      { word: "CLOUD", hint: "A visible mass of water droplets floating in the sky" },
+      { word: "REPORT", hint: "A forecast telling you what conditions to expect" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 9
+  // =============================================
+  {
+    category: "Mountains",
+    puzzleNumber: 10,
+    words: [
+      { word: "HILL", hint: "A small, rounded elevation of land, lower than a mountain" },
+      { word: "RANGE", hint: "A chain of mountains connected in a line" },
+      { word: "RIDGED", hint: "Having a long, narrow elevated crest or edge" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 10
+  // =============================================
+  {
+    category: "Now You See Me",
+    puzzleNumber: 11,
+    words: [
+      { word: "MASK", hint: "A covering worn to hide or protect the face" },
+      { word: "MIMIC", hint: "To imitate or copy the appearance of something else" },
+      { word: "COVERT", hint: "Hidden or secret, not openly displayed" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 11
+  // =============================================
+  {
+    category: "Map It!",
+    puzzleNumber: 12,
+    words: [
+      { word: "PLOT", hint: "To mark or plan a course on a map" },
+      { word: "GUIDE", hint: "A reference that helps you find your way" },
+      { word: "SKETCH", hint: "To draw a rough outline or representation quickly" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 12
+  // =============================================
+  {
+    category: "Shoes",
+    puzzleNumber: 13,
+    words: [
+      { word: "MULE", hint: "A backless slip-on shoe or slipper" },
+      { word: "FLATS", hint: "Shoes with little to no heel" },
+      { word: "SADDLE", hint: "A two-toned oxford shoe popular in the 1950s" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 13
+  // =============================================
+  {
+    category: "Beverage",
+    puzzleNumber: 14,
+    words: [
+      { word: "SODA", hint: "A carbonated sweet drink, also called pop" },
+      { word: "FIZZY", hint: "Bubbly and effervescent, full of tiny bubbles" },
+      { word: "COFFEE", hint: "A caffeinated drink brewed from roasted beans" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 14
+  // =============================================
+  {
+    category: "Weekend",
+    puzzleNumber: 15,
+    words: [
+      { word: "HIKE", hint: "A long walk outdoors, often on trails or in nature" },
+      { word: "MOVIE", hint: "A film you watch at the theater or at home" },
+      { word: "SPORTS", hint: "Athletic activities like basketball, soccer, or tennis" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 15
+  // =============================================
+  {
+    category: "Skygazing",
+    puzzleNumber: 16,
+    words: [
+      { word: "STAR", hint: "A bright point of light in the night sky" },
+      { word: "CLOUD", hint: "A white or gray mass floating in the sky" },
+      { word: "SUNSET", hint: "When the sun dips below the horizon in the evening" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 16
+  // =============================================
+  {
+    category: "Lakehouse",
+    puzzleNumber: 17,
+    words: [
+      { word: "FISH", hint: "Aquatic creatures you might catch from the dock" },
+      { word: "CANOE", hint: "A narrow boat you paddle through the water" },
+      { word: "SNOOZE", hint: "To take a lazy afternoon nap" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 17
+  // =============================================
+  {
+    category: "Pie",
+    puzzleNumber: 18,
+    words: [
+      { word: "ROLL", hint: "To flatten dough with a cylindrical tool" },
+      { word: "FRUIT", hint: "A sweet filling made from apples, berries, or cherries" },
+      { word: "PASTRY", hint: "A baked dough used for crusts and shells" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 18
+  // =============================================
+  {
+    category: "Snacking",
+    puzzleNumber: 19,
+    words: [
+      { word: "NOSH", hint: "To eat snacks or light bites between meals" },
+      { word: "GRAZE", hint: "To eat small amounts throughout the day" },
+      { word: "MORSEL", hint: "A small piece or bite of food" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 19
+  // =============================================
+  {
+    category: "Chocolate",
+    puzzleNumber: 20,
+    words: [
+      { word: "DARK", hint: "A rich, intense variety with less sugar" },
+      { word: "FUDGE", hint: "A soft, dense confection often made with cocoa" },
+      { word: "FLAVOR", hint: "The distinctive taste of a food or drink" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 20
+  // =============================================
+  {
+    category: "Tea",
+    puzzleNumber: 21,
+    words: [
+      { word: "BREW", hint: "To prepare by soaking in hot water" },
+      { word: "STEEP", hint: "To soak leaves in hot water to extract flavor" },
+      { word: "KETTLE", hint: "A container used to boil water" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 21
+  // =============================================
+  {
+    category: "Crafting",
+    puzzleNumber: 22,
+    words: [
+      { word: "ARTS", hint: "Creative activities involving skill and imagination" },
+      { word: "HOBBY", hint: "A leisure activity done for enjoyment" },
+      { word: "CREATE", hint: "To make or bring something into existence" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 22
+  // =============================================
+  {
+    category: "Farm",
+    puzzleNumber: 23,
+    words: [
+      { word: "CROP", hint: "Plants grown for food or profit" },
+      { word: "RURAL", hint: "Relating to the countryside rather than the city" },
+      { word: "CATTLE", hint: "Cows and bulls" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 23
+  // =============================================
+  {
+    category: "Sunny",
+    puzzleNumber: 24,
+    words: [
+      { word: "BEAM", hint: "A ray or shaft of light" },
+      { word: "SOLAR", hint: "Relating to or derived from the sun" },
+      { word: "GOLDEN", hint: "A warm, bright yellow color like sunshine" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 24
+  // =============================================
+  {
+    category: "Computer",
+    puzzleNumber: 25,
+    words: [
+      { word: "APPS", hint: "Software programs designed for specific tasks" },
+      { word: "MOUSE", hint: "A handheld device used to move a cursor" },
+      { word: "SCREEN", hint: "The display surface where images appear" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 25
+  // =============================================
+  {
+    category: "Lincoln",
+    puzzleNumber: 26,
+    words: [
+      { word: "TALL", hint: "Having great height" },
+      { word: "CABIN", hint: "A small rustic dwelling made of logs" },
+      { word: "HONEST", hint: "Truthful and sincere, a famous nickname" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 26
+  // =============================================
+  {
+    category: "Library",
+    puzzleNumber: 27,
+    words: [
+      { word: "CARD", hint: "An item used to borrow books and materials" },
+      { word: "STUDY", hint: "To read and learn about a subject" },
+      { word: "GOOGLE", hint: "A popular search engine for finding information" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 27
+  // =============================================
+  {
+    category: "Romance",
+    puzzleNumber: 28,
+    words: [
+      { word: "LOVE", hint: "A deep affection for someone special" },
+      { word: "SWEET", hint: "Endearing, kind, or sugary" },
+      { word: "WARMTH", hint: "A feeling of affection or coziness" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 28
+  // =============================================
+  {
+    category: "Horses",
+    puzzleNumber: 29,
+    words: [
+      { word: "SHOE", hint: "A metal plate on a hoof for protection" },
+      { word: "STABLE", hint: "A building where horses are kept" },
+      { word: "SADDLE", hint: "A seat fastened on a horse's back for riding" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 29
+  // =============================================
+  {
+    category: "U.S. Presidents",
+    puzzleNumber: 30,
+    words: [
+      { word: "POLK", hint: "11th President who expanded U.S. territory westward" },
+      { word: "ADAMS", hint: "A surname shared by the 2nd and 6th Presidents" },
+      { word: "TRUMAN", hint: "33rd President who made the decision to use atomic weapons" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 30
+  // =============================================
+  {
+    category: "Tater Tots",
+    puzzleNumber: 31,
+    words: [
+      { word: "PUFF", hint: "To swell or expand with air" },
+      { word: "CRUST", hint: "A crispy outer layer formed when cooked" },
+      { word: "POTATO", hint: "The starchy vegetable these are made from" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 31
+  // =============================================
+  {
+    category: "Full Moon",
+    puzzleNumber: 32,
+    words: [
+      { word: "TIDE", hint: "The rise and fall of ocean water influenced by lunar gravity" },
+      { word: "LUNAR", hint: "Relating to the moon" },
+      { word: "APOLLO", hint: "NASA's program that landed humans on the moon" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 32
+  // =============================================
+  {
+    category: "Birds",
+    puzzleNumber: 33,
+    words: [
+      { word: "HAWK", hint: "A bird of prey known for sharp eyesight and swift diving" },
+      { word: "ROBIN", hint: "A songbird with a red or orange breast" },
+      { word: "PARROT", hint: "A colorful tropical bird known for mimicking speech" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 33
+  // =============================================
+  {
+    category: "Carrot Cake",
+    puzzleNumber: 34,
+    words: [
+      { word: "RICH", hint: "Having a deep, full flavor or texture" },
+      { word: "ICING", hint: "A sweet topping spread on cakes, often cream cheese" },
+      { word: "NUTMEG", hint: "A warm spice often used in baking" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 34
+  // =============================================
+  {
+    category: "Guitar",
+    puzzleNumber: 35,
+    words: [
+      { word: "PICK", hint: "A small flat tool used to pluck strings" },
+      { word: "STRUM", hint: "To brush fingers across strings to make chords" },
+      { word: "STRING", hint: "A thin cord stretched across the instrument to produce sound" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 35
+  // =============================================
+  {
+    category: "Washington",
+    puzzleNumber: 36,
+    words: [
+      { word: "ARMY", hint: "The military branch he commanded during the Revolution" },
+      { word: "FIRST", hint: "His position in the line of U.S. Presidents" },
+      { word: "FARMER", hint: "His occupation at Mount Vernon" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 36
+  // =============================================
+  {
+    category: "Horses II",
+    puzzleNumber: 37,
+    words: [
+      { word: "FOAL", hint: "A baby horse under one year old" },
+      { word: "FILLY", hint: "A young female horse" },
+      { word: "EQUINE", hint: "Relating to or affecting horses" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 37
+  // =============================================
+  {
+    category: "Chinese New Year",
+    puzzleNumber: 38,
+    words: [
+      { word: "JADE", hint: "A precious green stone symbolizing purity and wisdom" },
+      { word: "HORSE", hint: "The zodiac animal for 2026" },
+      { word: "ORANGE", hint: "A fruit representing good luck and prosperity" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 38
+  // =============================================
+  {
+    category: "Alaska",
+    puzzleNumber: 39,
+    words: [
+      { word: "BEAR", hint: "A large mammal common in the wilderness" },
+      { word: "MOOSE", hint: "The largest member of the deer family" },
+      { word: "MUKLUK", hint: "A soft boot traditionally worn by Arctic peoples" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 39
+  // =============================================
+  {
+    category: "Frogurt",
     puzzleNumber: 40,
     words: [
-      { word: "MINT", hint: "A refreshing flavor often found in chocolate or hard candies" },
-      { word: "SWEET", hint: "The taste that all candy has in common" },
-      { word: "NOUGAT", hint: "Chewy, fluffy filling found inside candy bars" }
-    ]
+      { word: "TART", hint: "Having a sharp, tangy taste" },
+      { word: "FRUIT", hint: "A popular topping like strawberries or mango" },
+      { word: "FLAVOR", hint: "The distinctive taste of a food" },
+    ],
   },
+
+  // =============================================
+  // INDEX 40
+  // =============================================
   {
-    category: "Autumn II",
+    category: "Opera",
     puzzleNumber: 41,
     words: [
-      { word: "RAKE", hint: "Tool used to gather fallen leaves" },
-      { word: "CIDER", hint: "A warm apple drink perfect for cool weather" },
-      { word: "ORANGE", hint: "A popular fall color seen in leaves and pumpkins" }
-    ]
+      { word: "ARIA", hint: "A solo song performed by a single voice" },
+      { word: "TENOR", hint: "A high adult male singing voice" },
+      { word: "CHORUS", hint: "A group of singers performing together" },
+    ],
   },
+
+  // =============================================
+  // INDEX 41
+  // =============================================
   {
-    category: "Hiking II",
+    category: "Radio",
     puzzleNumber: 42,
     words: [
-      { word: "PATH", hint: "A walkway through the woods" },
-      { word: "CLIMB", hint: "To go upward on a steep trail" },
-      { word: "NATURE", hint: "The great outdoors you experience on a hike" }
-    ]
+      { word: "WAVE", hint: "An electromagnetic signal that carries sound" },
+      { word: "TUNER", hint: "A device that selects a specific frequency" },
+      { word: "SIGNAL", hint: "A transmitted broadcast picked up by receivers" },
+    ],
   },
+
+  // =============================================
+  // INDEX 42
+  // =============================================
   {
-    category: "Dessert II",
+    category: "Hippopotamus",
     puzzleNumber: 43,
     words: [
-      { word: "TART", hint: "A small pastry with a sweet or fruity filling" },
-      { word: "FUDGE", hint: "A rich, chocolatey square treat" },
-      { word: "MOUSSE", hint: "A light, airy whipped chocolate treat" }
-    ]
+      { word: "YAWN", hint: "An open-mouthed display showing large teeth" },
+      { word: "BLOAT", hint: "A group of hippos" },
+      { word: "DANGER", hint: "A threat or risk, as these animals are quite aggressive" },
+    ],
   },
+
+  // =============================================
+  // INDEX 43
+  // =============================================
   {
-    category: "Fruits II",
+    category: "Compliments",
     puzzleNumber: 44,
     words: [
-      { word: "KIWI", hint: "A fuzzy brown fruit that's green inside" },
-      { word: "MANGO", hint: "A sweet tropical fruit with orange flesh" },
-      { word: "BANANA", hint: "A yellow fruit that comes in a bunch" }
-    ]
+      { word: "WISH", hint: "A hope or desire for someone's happiness" },
+      { word: "BOOST", hint: "To lift up or increase confidence" },
+      { word: "MORALE", hint: "The spirit or confidence of a person or group" },
+    ],
   },
+
+  // =============================================
+  // INDEX 44
+  // =============================================
   {
-    category: "Animals II",
+    category: "Dr. Seuss",
     puzzleNumber: 45,
     words: [
-      { word: "FROG", hint: "A hopping amphibian that says ribbit" },
-      { word: "MOOSE", hint: "A large animal with impressive antlers" },
-      { word: "GOPHER", hint: "A burrowing rodent that digs tunnels" }
-    ]
+      { word: "EGGS", hint: "A breakfast food featured in a famous title with ham" },
+      { word: "VERSE", hint: "Poetry or rhyming lines" },
+      { word: "GRINCH", hint: "A green character who stole Christmas" },
+    ],
   },
+
+  // =============================================
+  // INDEX 45
+  // =============================================
   {
-    category: "Occupations II",
+    category: "Lions",
     puzzleNumber: 46,
     words: [
-      { word: "COOK", hint: "Someone who prepares food for a living" },
-      { word: "PILOT", hint: "A person who flies aircraft" },
-      { word: "LAWYER", hint: "A professional who practices law" }
-    ]
+      { word: "LAZY", hint: "Resting often, as these cats sleep up to 20 hours a day" },
+      { word: "PRIDE", hint: "A group of these big cats living together" },
+      { word: "SOCIAL", hint: "Living and interacting with others in a group" },
+    ],
   },
+
+  // =============================================
+  // INDEX 46
+  // =============================================
   {
-    category: "Sports II",
+    category: "Cheese Doodles",
     puzzleNumber: 47,
     words: [
-      { word: "POLO", hint: "A sport played on horseback with mallets" },
-      { word: "RUGBY", hint: "A tackle sport similar to football" },
-      { word: "HOCKEY", hint: "A fast-paced game played on ice with pucks" }
-    ]
+      { word: "NEON", hint: "A bright, fluorescent color like orange" },
+      { word: "SNACK", hint: "A small portion of food eaten between meals" },
+      { word: "POWDER", hint: "A fine, dusty coating left on fingers" },
+    ],
   },
+
+  // =============================================
+  // INDEX 47
+  // =============================================
   {
-    category: "U.S. States II",
+    category: "Cheesecake",
     puzzleNumber: 48,
     words: [
-      { word: "IOWA", hint: "The Hawkeye State in the Midwest" },
-      { word: "MAINE", hint: "The Pine Tree State in the northeast" },
-      { word: "OREGON", hint: "The Beaver State on the Pacific coast" }
-    ]
+      { word: "SOUR", hint: "A type of cream used to add tanginess" },
+      { word: "CRUST", hint: "The graham cracker base of the dessert" },
+      { word: "CREAMY", hint: "Smooth and rich in texture" },
+    ],
   },
+
+  // =============================================
+  // INDEX 48
+  // =============================================
   {
-    category: "School Days II",
+    category: "Next Window, Please",
     puzzleNumber: 49,
     words: [
-      { word: "TEST", hint: "An exam to measure what you've learned" },
-      { word: "CHALK", hint: "Used to write on a blackboard" },
-      { word: "ERASER", hint: "Removes pencil marks from paper" }
-    ]
+      { word: "SODA", hint: "A fizzy carbonated beverage" },
+      { word: "SHAKE", hint: "A thick, blended ice cream drink" },
+      { word: "BURGER", hint: "A sandwich with a ground beef patty" },
+    ],
   },
+
+  // =============================================
+  // INDEX 49
+  // =============================================
   {
-    category: "Trees and Shrubs II",
+    category: "Women's Day",
     puzzleNumber: 50,
     words: [
-      { word: "PINE", hint: "An evergreen tree with needles and cones" },
-      { word: "BIRCH", hint: "A tree known for its white, papery bark" },
-      { word: "SPRUCE", hint: "A tall evergreen often used as a Christmas tree" }
-    ]
+      { word: "BOLD", hint: "Courageous and daring" },
+      { word: "HONOR", hint: "To show respect and recognition" },
+      { word: "RIGHTS", hint: "Freedoms and entitlements for all people" },
+    ],
   },
+
+  // =============================================
+  // INDEX 50
+  // =============================================
   {
-    category: "Movie Titles II",
+    category: "Sticky Bun",
     puzzleNumber: 51,
     words: [
-      { word: "CARS", hint: "A Pixar film about a race car named Lightning McQueen" },
-      { word: "GHOST", hint: "A 1990 romantic fantasy with Patrick Swayze" },
-      { word: "GREASE", hint: "A musical set in the 1950s with John Travolta" }
-    ]
+      { word: "NUTS", hint: "Crunchy toppings like pecans or walnuts" },
+      { word: "GOOEY", hint: "Soft, sticky, and deliciously messy" },
+      { word: "SPIRAL", hint: "A coiled or rolled shape" },
+    ],
   },
+
+  // =============================================
+  // INDEX 51
+  // =============================================
   {
-    category: "Colors II",
+    category: "Brown Bag",
     puzzleNumber: 52,
     words: [
-      { word: "GOLD", hint: "A shiny, metallic yellow shade" },
-      { word: "CORAL", hint: "A pinkish-orange color named after sea life" },
-      { word: "VIOLET", hint: "A purple shade named after a flower" }
-    ]
+      { word: "PREP", hint: "To prepare food in advance" },
+      { word: "LUNCH", hint: "A midday meal" },
+      { word: "NAPKIN", hint: "A cloth or paper for wiping hands and face" },
+    ],
   },
-  {
-    category: "International Foods II",
-    puzzleNumber: 53,
-    words: [
-      { word: "PITA", hint: "A flatbread from the Middle East" },
-      { word: "CREPE", hint: "A thin French pancake" },
-      { word: "HUMMUS", hint: "A Middle Eastern dip made from chickpeas" }
-    ]
-  },
-  {
-    category: "Games II",
-    puzzleNumber: 54,
-    words: [
-      { word: "POOL", hint: "A game played with cue sticks and balls on a table" },
-      { word: "DARTS", hint: "A throwing game aimed at a circular board" },
-      { word: "TETRIS", hint: "A classic video game where you stack falling blocks" }
-    ]
-  },
-  {
-    category: "Cities Around the World II",
-    puzzleNumber: 55,
-    words: [
-      { word: "ROME", hint: "Italy's capital, home to the Colosseum" },
-      { word: "DUBAI", hint: "A glamorous city in the United Arab Emirates" },
-      { word: "SYDNEY", hint: "Australia's largest city, known for its opera house" }
-    ]
-  },
-  {
-    category: "Cool Weather Clothing II",
-    puzzleNumber: 56,
-    words: [
-      { word: "COAT", hint: "A warm outer layer for cold days" },
-      { word: "BOOTS", hint: "Footwear that keeps your feet warm and dry" },
-      { word: "BEANIE", hint: "A snug knit cap that covers your ears" }
-    ]
-  }
+
 ];
 
 
