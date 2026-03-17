@@ -48,6 +48,8 @@ export default function LittleLetterGriddle() {
   const [showMusicModal, setShowMusicModal] = useState(false);
   const [showMoonModal, setShowMoonModal] = useState(false);
   const [showLanguagesModal, setShowLanguagesModal] = useState(false);
+  const [puzzleFeedback, setPuzzleFeedback] = useState(null);
+const [feedbackSent, setFeedbackSent] = useState(false);
   
   // Timer states
   const [countdown, setCountdown] = useState({ hours: 0, minutes: 0, seconds: 0 });
@@ -355,6 +357,21 @@ if (lastWelcomeDate !== today) {
       return newHints;
     });
   };
+  const handleFeedback = (emoji) => {
+  if (feedbackSent) return;
+  setPuzzleFeedback(emoji);
+  setFeedbackSent(true);
+  // Send to Google Forms
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSeHo--3CyvRyNWRYzo9J6_srYUgOgle5QdC1rOexJKhaFJPuw/formResponse';
+  const params = new URLSearchParams({
+    'entry.1226112124': `Little Letter Griddle - ${gameData.puzzleNumber}`,
+    'entry.971793728': emoji
+  });
+  fetch(`${formUrl}?${params}`, {
+    method: 'POST',
+    mode: 'no-cors'
+  }).catch(() => {});
+};
 
   // Keyboard handling
   useEffect(() => {
@@ -706,6 +723,23 @@ const copyToClipboard = async (text) => {
               <Share2 size={16} className="inline mr-2" />
               Share Results
             </button>
+            {/* Puzzle Feedback */}
+<div className="mt-2 text-center">
+  {!feedbackSent ? (
+    <div>
+      <p className="text-xs text-purple-300 font-semibold mb-1">How was today's puzzle?</p>
+      <div className="flex justify-center gap-3">
+        {['😍', '😊', '😐', '😕'].map((emoji) => (
+          <button key={emoji} onClick={() => handleFeedback(emoji)} className="text-2xl hover:scale-125 transition-transform" title={emoji}>
+            {emoji}
+          </button>
+        ))}
+      </div>
+    </div>
+  ) : (
+    <p className="text-xs text-purple-300 font-semibold">Thanks for the feedback! {puzzleFeedback}</p>
+  )}
+</div>
           </div>
         )}
 
