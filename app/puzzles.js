@@ -578,7 +578,7 @@ export const puzzles = [
   // INDEX 44
   // =============================================
   {
-    category: "Dr. Seuss",
+    category: "Seuss",
     puzzleNumber: 45,
     words: [
       { word: "EGGS", hint: "A breakfast food featured in a famous title with ham" },
@@ -630,7 +630,7 @@ export const puzzles = [
   // INDEX 48
   // =============================================
   {
-    category: "Next Window, Please",
+    category: "Fast Food",
     puzzleNumber: 49,
     words: [
       { word: "SODA", hint: "A fizzy carbonated beverage" },
@@ -643,7 +643,7 @@ export const puzzles = [
   // INDEX 49
   // =============================================
   {
-    category: "Women's Day",
+    category: "Equality",
     puzzleNumber: 50,
     words: [
       { word: "BOLD", hint: "Courageous and daring" },
