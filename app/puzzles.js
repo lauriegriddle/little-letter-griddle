@@ -678,6 +678,721 @@ export const puzzles = [
     ],
   },
 
+    // =============================================
+  // INDEX 52
+  // =============================================
+  {
+    category: "Plant a Flower",
+    puzzleNumber: 53,
+    words: [
+      { word: "SEED", hint: "The tiny beginning of a plant" },
+      { word: "PETAL", hint: "A colorful part of a bloom" },
+      { word: "SPROUT", hint: "A young plant just starting to grow" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 53
+  // =============================================
+  {
+    category: "Coffee Break",
+    puzzleNumber: 54,
+    words: [
+      { word: "JAVA", hint: "Slang term for coffee" },
+      { word: "RELAX", hint: "To rest and unwind" },
+      { word: "PUZZLE", hint: "A brain game to enjoy during downtime" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 54
+  // =============================================
+  {
+    category: "Superstition",
+    puzzleNumber: 55,
+    words: [
+      { word: "LUCK", hint: "Good or bad fortune" },
+      { word: "WORRY", hint: "To feel anxious or uneasy" },
+      { word: "PHOBIA", hint: "An intense fear of something" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 55
+  // =============================================
+  {
+    category: "Pep Rally",
+    puzzleNumber: 56,
+    words: [
+      { word: "GAME", hint: "A competitive event or match" },
+      { word: "CHEER", hint: "To shout encouragement and support" },
+      { word: "HOOPLA", hint: "Excitement and commotion" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 56
+  // =============================================
+  {
+    category: "Pie",
+    puzzleNumber: 57,
+    words: [
+      { word: "LIME", hint: "Key ___ pie is a Florida favorite" },
+      { word: "PEACH", hint: "A sweet summer fruit pie" },
+      { word: "CHERRY", hint: "A classic red fruit filling" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 57
+  // =============================================
+  {
+    category: "Vacation",
+    puzzleNumber: 58,
+    words: [
+      { word: "REST", hint: "Time to relax and recharge" },
+      { word: "BREAK", hint: "A pause from work or routine" },
+      { word: "LEAVE", hint: "Time off from your job" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 58
+  // =============================================
+  {
+    category: "Lamb",
+    puzzleNumber: 59,
+    words: [
+      { word: "WALK", hint: "Lambs can do this within minutes of birth" },
+      { word: "BLEAT", hint: "The sound a lamb makes" },
+      { word: "VISION", hint: "Lambs have nearly 360 degrees of this" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 59
+  // =============================================
+  {
+    category: "Puppy",
+    puzzleNumber: 60,
+    words: [
+      { word: "BARK", hint: "The sound a dog makes" },
+      { word: "FETCH", hint: "A game of throwing and retrieving" },
+      { word: "TREAT", hint: "A tasty reward for good behavior" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 60
+  // =============================================
+  {
+    category: "Theatre",
+    puzzleNumber: 61,
+    words: [
+      { word: "ROLE", hint: "A part played by an actor" },
+      { word: "DRAMA", hint: "A serious or emotional performance" },
+      { word: "SCRIPT", hint: "The written dialogue for a play" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 61
+  // =============================================
+  {
+    category: "Waffle",
+    puzzleNumber: 62,
+    words: [
+      { word: "IRON", hint: "The tool used to cook waffles" },
+      { word: "CRISP", hint: "Crunchy on the outside" },
+      { word: "GOLDEN", hint: "The perfect color when done" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 62
+  // =============================================
+  {
+    category: "Butterfly",
+    puzzleNumber: 63,
+    words: [
+      { word: "LIFE", hint: "The stages from egg to adult" },
+      { word: "CYCLE", hint: "A repeating pattern of changes" },
+      { word: "WINGED", hint: "Having colorful flight appendages" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 63
+  // =============================================
+  {
+    category: "Popcorn",
+    puzzleNumber: 64,
+    words: [
+      { word: "SALT", hint: "A classic seasoning" },
+      { word: "WHITE", hint: "The color of plain popped kernels" },
+      { word: "CRUNCH", hint: "The satisfying sound when you bite" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 64
+  // =============================================
+  {
+    category: "Puzzles",
+    puzzleNumber: 65,
+    words: [
+      { word: "CLUE", hint: "A helpful hint to solve" },
+      { word: "PIECE", hint: "One part of the whole" },
+      { word: "TEASER", hint: "A brain ___ challenges the mind" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 65
+  // =============================================
+  {
+    category: "Pencil",
+    puzzleNumber: 66,
+    words: [
+      { word: "LEAD", hint: "What the writing core is mistakenly called" },
+      { word: "WRITE", hint: "To put words on paper" },
+      { word: "WOODEN", hint: "Made from timber" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 66
+  // =============================================
+  {
+    category: "Paella",
+    puzzleNumber: 67,
+    words: [
+      { word: "RICE", hint: "The base grain of this dish" },
+      { word: "SPAIN", hint: "Country where it originated" },
+      { word: "CHICKEN", hint: "A common protein topping" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 67
+  // =============================================
+  {
+    category: "Oatmeal Cookie",
+    puzzleNumber: 68,
+    words: [
+      { word: "OATS", hint: "The hearty grain in the recipe" },
+      { word: "CHEWY", hint: "Soft and easy to bite" },
+      { word: "RAISIN", hint: "A dried grape often added" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 68
+  // =============================================
+  {
+    category: "Selfie",
+    puzzleNumber: 69,
+    words: [
+      { word: "SNAP", hint: "To take a quick photo" },
+      { word: "PHONE", hint: "The device most often used" },
+      { word: "CAMERA", hint: "What captures the image" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 69
+  // =============================================
+  {
+    category: "Caramel",
+    puzzleNumber: 70,
+    words: [
+      { word: "SOFT", hint: "Tender and easy to chew" },
+      { word: "APPLE", hint: "A fruit often dipped in this treat" },
+      { word: "STICKY", hint: "Tends to cling to your teeth" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 70
+  // =============================================
+  {
+    category: "Perfume",
+    puzzleNumber: 71,
+    words: [
+      { word: "MUSK", hint: "A warm, earthy base note" },
+      { word: "SCENT", hint: "A distinctive smell" },
+      { word: "FLORAL", hint: "Smelling like flowers" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 71
+  // =============================================
+  {
+    category: "Reading",
+    puzzleNumber: 72,
+    words: [
+      { word: "SKIM", hint: "To read quickly for main points" },
+      { word: "BROWSE", hint: "To look through casually" },
+      { word: "PERUSE", hint: "To read thoroughly" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 72
+  // =============================================
+  {
+    category: "Party",
+    puzzleNumber: 73,
+    words: [
+      { word: "BASH", hint: "A lively celebration" },
+      { word: "MIXER", hint: "A social gathering to meet people" },
+      { word: "SOIRÉE", hint: "An elegant evening party" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 73
+  // =============================================
+  {
+    category: "Eiffel Tower",
+    puzzleNumber: 74,
+    words: [
+      { word: "VIEW", hint: "What you see from the top" },
+      { word: "PARIS", hint: "The city where it stands" },
+      { word: "ICONIC", hint: "Widely recognized and symbolic" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 74
+  // =============================================
+  {
+    category: "Antique",
+    puzzleNumber: 75,
+    words: [
+      { word: "RARE", hint: "Uncommon and hard to find" },
+      { word: "RELIC", hint: "An object from the past" },
+      { word: "RUSTIC", hint: "Having a simple, aged charm" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 75
+  // =============================================
+  {
+    category: "Golf",
+    puzzleNumber: 76,
+    words: [
+      { word: "IRON", hint: "A type of club for mid-range shots" },
+      { word: "WEDGE", hint: "A club for short, high shots" },
+      { word: "BIRDIE", hint: "One stroke under par" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 76
+  // =============================================
+  {
+    category: "Stars",
+    puzzleNumber: 77,
+    words: [
+      { word: "TINY", hint: "Very small in appearance from Earth" },
+      { word: "DWARF", hint: "A small, dim type of star" },
+      { word: "DAZZLE", hint: "To impress with brightness" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 77
+  // =============================================
+  {
+    category: "Dance",
+    puzzleNumber: 78,
+    words: [
+      { word: "FOLK", hint: "Traditional cultural style" },
+      { word: "MUSIC", hint: "What dancers move to" },
+      { word: "BALLET", hint: "A classical form with pointe shoes" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 78
+  // =============================================
+  {
+    category: "Scrabble",
+    puzzleNumber: 79,
+    words: [
+      { word: "TILE", hint: "A small piece with a letter" },
+      { word: "POINT", hint: "The value of each letter" },
+      { word: "SQUARE", hint: "A space on the board" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 79
+  // =============================================
+  {
+    category: "Laughter",
+    puzzleNumber: 80,
+    words: [
+      { word: "GLEE", hint: "Great delight and joy" },
+      { word: "AMUSE", hint: "To make someone smile" },
+      { word: "GIGGLE", hint: "A light, silly laugh" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 80
+  // =============================================
+  {
+    category: "Jelly Beans",
+    puzzleNumber: 81,
+    words: [
+      { word: "JARS", hint: "Containers often filled with them" },
+      { word: "FRUIT", hint: "A common flavor category" },
+      { word: "FLAVOR", hint: "The taste of each bean" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 81
+  // =============================================
+  {
+    category: "Takeout",
+    puzzleNumber: 82,
+    words: [
+      { word: "FAST", hint: "Quick and convenient" },
+      { word: "READY", hint: "Prepared and waiting" },
+      { word: "PICKUP", hint: "To collect your order" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 82
+  // =============================================
+  {
+    category: "Friday",
+    puzzleNumber: 83,
+    words: [
+      { word: "TGIF", hint: "Thank Goodness It's ___" },
+      { word: "JEANS", hint: "Casual pants often worn this day" },
+      { word: "CASUAL", hint: "Relaxed and informal" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 83
+  // =============================================
+  {
+    category: "Kickball",
+    puzzleNumber: 84,
+    words: [
+      { word: "TEAM", hint: "A group playing together" },
+      { word: "FIELD", hint: "The outdoor playing area" },
+      { word: "KICKER", hint: "The person who boots the ball" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 84
+  // =============================================
+  {
+    category: "Garlic",
+    puzzleNumber: 85,
+    words: [
+      { word: "BULB", hint: "The whole head of cloves" },
+      { word: "CLOVE", hint: "One segment of the bulb" },
+      { word: "MINCED", hint: "Finely chopped" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 85
+  // =============================================
+  {
+    category: "Volunteers",
+    puzzleNumber: 86,
+    words: [
+      { word: "HELP", hint: "To assist others" },
+      { word: "SERVE", hint: "To give your time and effort" },
+      { word: "DONATE", hint: "To give freely" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 86
+  // =============================================
+  {
+    category: "Hot Tea",
+    puzzleNumber: 87,
+    words: [
+      { word: "BOIL", hint: "To heat water to bubbling" },
+      { word: "SPOON", hint: "Used to stir in honey" },
+      { word: "TEAPOT", hint: "A vessel for steeping" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 87
+  // =============================================
+  {
+    category: "Shakespeare",
+    puzzleNumber: 88,
+    words: [
+      { word: "PLAY", hint: "A theatrical performance" },
+      { word: "STAGE", hint: "Where actors perform" },
+      { word: "FAMOUS", hint: "Widely known and celebrated" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 88
+  // =============================================
+  {
+    category: "Penguins",
+    puzzleNumber: 89,
+    words: [
+      { word: "DIVE", hint: "To plunge into the water" },
+      { word: "PREEN", hint: "To groom feathers" },
+      { word: "WADDLE", hint: "A side-to-side walk" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 89
+  // =============================================
+  {
+    category: "Getting Organized",
+    puzzleNumber: 90,
+    words: [
+      { word: "FIND", hint: "To locate something" },
+      { word: "PLACE", hint: "A spot for everything" },
+      { word: "REDUCE", hint: "To minimize clutter" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 90
+  // =============================================
+  {
+    category: "Superhero",
+    puzzleNumber: 91,
+    words: [
+      { word: "CAPE", hint: "A flowing garment worn on the back" },
+      { word: "POWER", hint: "A special ability" },
+      { word: "SECRET", hint: "A hidden identity" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 91
+  // =============================================
+  {
+    category: "Poetry",
+    puzzleNumber: 92,
+    words: [
+      { word: "LOVE", hint: "A common poetic theme" },
+      { word: "VERSE", hint: "A line or stanza" },
+      { word: "RECITE", hint: "To speak aloud from memory" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 92
+  // =============================================
+  {
+    category: "Animal Crackers",
+    puzzleNumber: 93,
+    words: [
+      { word: "LION", hint: "The king of the jungle" },
+      { word: "TIGER", hint: "A striped big cat" },
+      { word: "CIRCUS", hint: "Where these animals once performed" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 93
+  // =============================================
+  {
+    category: "Barbecue",
+    puzzleNumber: 94,
+    words: [
+      { word: "SLOW", hint: "Low and ___ cooking method" },
+      { word: "GRILL", hint: "To cook over open flames" },
+      { word: "SMOKER", hint: "Equipment for adding wood flavor" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 94
+  // =============================================
+  {
+    category: "April Showers",
+    puzzleNumber: 95,
+    words: [
+      { word: "RAIN", hint: "Water falling from clouds" },
+      { word: "STORM", hint: "A weather disturbance" },
+      { word: "GROWTH", hint: "What rain helps plants do" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 95
+  // =============================================
+  {
+    category: "Hoagie",
+    puzzleNumber: 96,
+    words: [
+      { word: "LONG", hint: "The shape of the roll" },
+      { word: "BREAD", hint: "The base of any sandwich" },
+      { word: "SALAMI", hint: "A popular Italian cold cut" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 96
+  // =============================================
+  {
+    category: "Iris",
+    puzzleNumber: 97,
+    words: [
+      { word: "NEWS", hint: "Symbolic of good ____" },
+      { word: "GREEK", hint: "Named after a goddess from this culture" },
+      { word: "GARDEN", hint: "Where flowers grow" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 97
+  // =============================================
+  {
+    category: "Shrimp",
+    puzzleNumber: 98,
+    words: [
+      { word: "LEGS", hint: "Shrimp have ten of these" },
+      { word: "OCEAN", hint: "Where most shrimp live" },
+      { word: "MANTIS", hint: "A type with powerful claws" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 98
+  // =============================================
+  {
+    category: "Indulge",
+    puzzleNumber: 99,
+    words: [
+      { word: "FEED", hint: "To satisfy a craving" },
+      { word: "ALLOW", hint: "To permit yourself" },
+      { word: "PAMPER", hint: "To treat yourself luxuriously" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 99
+  // =============================================
+  {
+    category: "Nurse",
+    puzzleNumber: 100,
+    words: [
+      { word: "CARE", hint: "Compassionate attention" },
+      { word: "TREAT", hint: "To provide medical help" },
+      { word: "HEALTH", hint: "Physical well-being" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 100
+  // =============================================
+  {
+    category: "Chicken Dance",
+    puzzleNumber: 101,
+    words: [
+      { word: "CLAP", hint: "To bring hands together" },
+      { word: "POLKA", hint: "A lively European dance style" },
+      { word: "WIGGLE", hint: "To move side to side" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 101
+  // =============================================
+  {
+    category: "Hat",
+    puzzleNumber: 102,
+    words: [
+      { word: "BRIM", hint: "The edge that shades your face" },
+      { word: "BERET", hint: "A soft, round French cap" },
+      { word: "COWBOY", hint: "A Western style with a wide brim" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 102
+  // =============================================
+  {
+    category: "Museum",
+    puzzleNumber: 103,
+    words: [
+      { word: "TOUR", hint: "A guided walk through exhibits" },
+      { word: "GUIDE", hint: "Someone who explains the displays" },
+      { word: "TICKET", hint: "Your pass for entry" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 103
+  // =============================================
+  {
+    category: "Money Tips",
+    puzzleNumber: 104,
+    words: [
+      { word: "PLAN", hint: "A strategy for your finances" },
+      { word: "ASSET", hint: "Something of value you own" },
+      { word: "FRUGAL", hint: "Careful with spending" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 104
+  // =============================================
+  {
+    category: "Notebook",
+    puzzleNumber: 105,
+    words: [
+      { word: "MEMO", hint: "A short written note" },
+      { word: "DIARY", hint: "A personal daily record" },
+      { word: "LEDGER", hint: "A book for financial records" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 105
+  // =============================================
+  {
+    category: "Turtles",
+    puzzleNumber: 106,
+    words: [
+      { word: "BASK", hint: "To warm in the sun" },
+      { word: "SHELL", hint: "The protective outer covering" },
+      { word: "WISDOM", hint: "Often symbolized by these creatures" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 106
+  // =============================================
+  {
+    category: "Tap Dance",
+    puzzleNumber: 107,
+    words: [
+      { word: "FLAP", hint: "A basic tap step" },
+      { word: "BRUSH", hint: "A sweeping foot movement" },
+      { word: "CHANGE", hint: "A weight shift step" },
+    ],
+  },
+
 ];
 
 
