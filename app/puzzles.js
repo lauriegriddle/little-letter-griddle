@@ -1393,6 +1393,708 @@ export const puzzles = [
     ],
   },
 
+    // =============================================
+  // INDEX 108
+  // =============================================
+  {
+    category: "Compost",
+    puzzleNumber: 109,
+    words: [
+      { word: "SOIL", hint: "What compost enriches" },
+      { word: "MULCH", hint: "Material spread around plants" },
+      { word: "MATTER", hint: "Organic ___ breaks down" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 109
+  // =============================================
+  {
+    category: "Blueberry",
+    puzzleNumber: 110,
+    words: [
+      { word: "TART", hint: "Slightly sour taste" },
+      { word: "BLOOM", hint: "The dusty coating on fresh ones" },
+      { word: "BAKING", hint: "Used in muffins and pies" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 110
+  // =============================================
+  {
+    category: "Teacher",
+    puzzleNumber: 111,
+    words: [
+      { word: "PLAN", hint: "To prepare lessons" },
+      { word: "REACH", hint: "To connect with students" },
+      { word: "LEADER", hint: "Someone who guides others" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 111
+  // =============================================
+  {
+    category: "Australia",
+    puzzleNumber: 112,
+    words: [
+      { word: "MATE", hint: "A friendly Aussie greeting" },
+      { word: "KOALA", hint: "A tree-dwelling marsupial" },
+      { word: "WOMBAT", hint: "A burrowing marsupial" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 112
+  // =============================================
+  {
+    category: "Bracelet",
+    puzzleNumber: 113,
+    words: [
+      { word: "LINK", hint: "A chain connection" },
+      { word: "CHARM", hint: "A small decorative pendant" },
+      { word: "TRENDY", hint: "Fashionable and popular" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 113
+  // =============================================
+  {
+    category: "Ladybug",
+    puzzleNumber: 114,
+    words: [
+      { word: "SPOT", hint: "A dot on the wings" },
+      { word: "APHID", hint: "A pest that ladybugs eat" },
+      { word: "BEETLE", hint: "The insect family" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 114
+  // =============================================
+  {
+    category: "Goth",
+    puzzleNumber: 115,
+    words: [
+      { word: "PUNK", hint: "A rebellious music style" },
+      { word: "MUSIC", hint: "Dark, atmospheric sound" },
+      { word: "GOTHIC", hint: "Relating to dark aesthetics" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 115
+  // =============================================
+  {
+    category: "Pack Rat",
+    puzzleNumber: 116,
+    words: [
+      { word: "SAVE", hint: "To keep for later" },
+      { word: "STOCK", hint: "To accumulate supplies" },
+      { word: "GATHER", hint: "To collect together" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 116
+  // =============================================
+  {
+    category: "Memorial Day",
+    puzzleNumber: 117,
+    words: [
+      { word: "FLAG", hint: "Stars and stripes" },
+      { word: "HONOR", hint: "To show respect" },
+      { word: "WREATH", hint: "A circular flower arrangement" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 117
+  // =============================================
+  {
+    category: "Trees",
+    puzzleNumber: 118,
+    words: [
+      { word: "ROOT", hint: "Underground support system" },
+      { word: "SHADE", hint: "Cool relief from sun" },
+      { word: "CANOPY", hint: "The leafy top layer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 118
+  // =============================================
+  {
+    category: "Sunscreen",
+    puzzleNumber: 119,
+    words: [
+      { word: "ZINC", hint: "A white mineral blocker" },
+      { word: "CREAM", hint: "A thick lotion" },
+      { word: "LOTION", hint: "A liquid skin protector" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 119
+  // =============================================
+  {
+    category: "Mint",
+    puzzleNumber: 120,
+    words: [
+      { word: "COOL", hint: "A refreshing sensation" },
+      { word: "BRISK", hint: "Sharp and invigorating" },
+      { word: "HERBAL", hint: "Made from plants" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 120
+  // =============================================
+  {
+    category: "Outdoors",
+    puzzleNumber: 121,
+    words: [
+      { word: "OPEN", hint: "Exposed to the sky" },
+      { word: "FRESH", hint: "Clean, unpolluted air" },
+      { word: "NATURE", hint: "The natural world" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 121
+  // =============================================
+  {
+    category: "School's Out",
+    puzzleNumber: 122,
+    words: [
+      { word: "PLAY", hint: "Time for fun" },
+      { word: "BREAK", hint: "Time off from studies" },
+      { word: "SUMMER", hint: "The warm season vacation" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 122
+  // =============================================
+  {
+    category: "Summer Vacations",
+    puzzleNumber: 123,
+    words: [
+      { word: "HIKE", hint: "A nature walk" },
+      { word: "CABIN", hint: "A rustic retreat" },
+      { word: "CRUISE", hint: "A ship vacation" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 123
+  // =============================================
+  {
+    category: "Coconut",
+    puzzleNumber: 124,
+    words: [
+      { word: "MILK", hint: "A creamy liquid" },
+      { word: "SHELL", hint: "The hard outer layer" },
+      { word: "BUTTER", hint: "A smooth spread" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 124
+  // =============================================
+  {
+    category: "Dinosaur",
+    puzzleNumber: 125,
+    words: [
+      { word: "BONE", hint: "Fossilized skeletal remains" },
+      { word: "STUDY", hint: "Paleontology research" },
+      { word: "FOSSIL", hint: "Preserved ancient remains" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 125
+  // =============================================
+  {
+    category: "Rotisserie Chicken",
+    puzzleNumber: 126,
+    words: [
+      { word: "FIRE", hint: "Cooking heat source" },
+      { word: "SPICY", hint: "Flavorful seasoning" },
+      { word: "TENDER", hint: "Soft and juicy" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 126
+  // =============================================
+  {
+    category: "Graduation",
+    puzzleNumber: 127,
+    words: [
+      { word: "GOWN", hint: "Academic robe" },
+      { word: "MARCH", hint: "Walk in ceremony" },
+      { word: "CONFER", hint: "Grant a degree" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 127
+  // =============================================
+  {
+    category: "Hug Your Cat",
+    puzzleNumber: 128,
+    words: [
+      { word: "PURR", hint: "Contented vibration" },
+      { word: "BLINK", hint: "Slow eye gesture of trust" },
+      { word: "CUDDLE", hint: "Snuggle close" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 128
+  // =============================================
+  {
+    category: "Hot Air Balloon",
+    puzzleNumber: 129,
+    words: [
+      { word: "FUEL", hint: "Propane heat source" },
+      { word: "NYLON", hint: "Envelope fabric" },
+      { word: "BASKET", hint: "Wicker passenger container" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 129
+  // =============================================
+  {
+    category: "Drive-In Movies",
+    puzzleNumber: 130,
+    words: [
+      { word: "FOOD", hint: "Snacks and concessions" },
+      { word: "RETRO", hint: "Vintage nostalgia" },
+      { word: "CINEMA", hint: "Movie theater" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 130
+  // =============================================
+  {
+    category: "VCR",
+    puzzleNumber: 131,
+    words: [
+      { word: "STOP", hint: "End playback" },
+      { word: "PAUSE", hint: "Temporary halt" },
+      { word: "REWIND", hint: "Go backwards" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 131
+  // =============================================
+  {
+    category: "Friends",
+    puzzleNumber: 132,
+    words: [
+      { word: "BEST", hint: "Closest companion" },
+      { word: "BUDDY", hint: "Informal pal" },
+      { word: "SPIRIT", hint: "Kindred soul" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 132
+  // =============================================
+  {
+    category: "Ducks",
+    puzzleNumber: 133,
+    words: [
+      { word: "TEAL", hint: "A blue-green duck species" },
+      { word: "DRAKE", hint: "A male duck" },
+      { word: "WADDLE", hint: "Walking motion" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 133
+  // =============================================
+  {
+    category: "Iced Tea",
+    puzzleNumber: 134,
+    words: [
+      { word: "COLD", hint: "Chilled beverage" },
+      { word: "SWEET", hint: "Sugary Southern style" },
+      { word: "SUMMER", hint: "Peak season drink" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 134
+  // =============================================
+  {
+    category: "Corn on the Cob",
+    puzzleNumber: 135,
+    words: [
+      { word: "HUSK", hint: "Outer protective layer" },
+      { word: "SWEET", hint: "Sugary variety" },
+      { word: "KERNEL", hint: "Individual corn seed" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 135
+  // =============================================
+  {
+    category: "Red Roses",
+    puzzleNumber: 136,
+    words: [
+      { word: "RUBY", hint: "Deep red gemstone color" },
+      { word: "SCENT", hint: "Fragrant aroma" },
+      { word: "VELVET", hint: "Soft petal texture" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 136
+  // =============================================
+  {
+    category: "Sewing Machine",
+    puzzleNumber: 137,
+    words: [
+      { word: "FEED", hint: "Fabric movement mechanism" },
+      { word: "WHEEL", hint: "Hand control dial" },
+      { word: "THREAD", hint: "Stitching material" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 137
+  // =============================================
+  {
+    category: "Flags",
+    puzzleNumber: 138,
+    words: [
+      { word: "JACK", hint: "Naval or national flag" },
+      { word: "HOIST", hint: "Raise up a flagpole" },
+      { word: "BANNER", hint: "Large decorative flag" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 138
+  // =============================================
+  {
+    category: "Fly A Kite",
+    puzzleNumber: 139,
+    words: [
+      { word: "GUST", hint: "Strong wind burst" },
+      { word: "GLIDE", hint: "Smooth air movement" },
+      { word: "STRING", hint: "Control line" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 139
+  // =============================================
+  {
+    category: "Fresh Vegetables",
+    puzzleNumber: 140,
+    words: [
+      { word: "FARM", hint: "Growing location" },
+      { word: "CRISP", hint: "Crunchy texture" },
+      { word: "GARDEN", hint: "Home growing plot" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 140
+  // =============================================
+  {
+    category: "Apple Strudel",
+    puzzleNumber: 141,
+    words: [
+      { word: "WARM", hint: "Fresh from the oven" },
+      { word: "FLAKY", hint: "Crispy layered pastry" },
+      { word: "PASTRY", hint: "Dough dessert" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 141
+  // =============================================
+  {
+    category: "Treat Yourself",
+    puzzleNumber: 142,
+    words: [
+      { word: "REST", hint: "Take a break" },
+      { word: "ALLOW", hint: "Give yourself permission" },
+      { word: "PAMPER", hint: "Indulge in self-care" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 142
+  // =============================================
+  {
+    category: "Juneteenth",
+    puzzleNumber: 143,
+    words: [
+      { word: "FREE", hint: "Liberation from slavery" },
+      { word: "UNITY", hint: "Coming together" },
+      { word: "PARADE", hint: "Celebratory march" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 143
+  // =============================================
+  {
+    category: "Milkshakes",
+    puzzleNumber: 144,
+    words: [
+      { word: "COLD", hint: "Icy temperature" },
+      { word: "DENSE", hint: "Thick consistency" },
+      { word: "FROTHY", hint: "Foamy texture" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 144
+  // =============================================
+  {
+    category: "Skateboarding",
+    puzzleNumber: 145,
+    words: [
+      { word: "GEAR", hint: "Protective equipment" },
+      { word: "WHEEL", hint: "Rolling component" },
+      { word: "TRICKS", hint: "Skilled maneuvers" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 145
+  // =============================================
+  {
+    category: "Onion Rings",
+    puzzleNumber: 146,
+    words: [
+      { word: "AIRY", hint: "Light and crispy" },
+      { word: "SALTY", hint: "Savory seasoning" },
+      { word: "GOLDEN", hint: "Fried color" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 146
+  // =============================================
+  {
+    category: "Public Service",
+    puzzleNumber: 147,
+    words: [
+      { word: "HERO", hint: "Community champion" },
+      { word: "TRUST", hint: "Public confidence" },
+      { word: "IMPACT", hint: "Positive influence" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 147
+  // =============================================
+  {
+    category: "Swimming",
+    puzzleNumber: 148,
+    words: [
+      { word: "PACE", hint: "Speed control" },
+      { word: "BUDDY", hint: "Safety partner" },
+      { word: "LENGTH", hint: "Pool distance" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 148
+  // =============================================
+  {
+    category: "The Beatles",
+    puzzleNumber: 149,
+    words: [
+      { word: "FOUR", hint: "Number of members" },
+      { word: "ABBEY", hint: "___ Road studio" },
+      { word: "TALENT", hint: "Musical genius" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 149
+  // =============================================
+  {
+    category: "Canoe",
+    puzzleNumber: 150,
+    words: [
+      { word: "CREW", hint: "Paddling team" },
+      { word: "KAYAK", hint: "Similar watercraft" },
+      { word: "PADDLE", hint: "Propulsion tool" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 150
+  // =============================================
+  {
+    category: "Pineapple",
+    puzzleNumber: 151,
+    words: [
+      { word: "RING", hint: "Sliced circle shape" },
+      { word: "CHUNK", hint: "Cut pieces" },
+      { word: "HAWAII", hint: "Associated location" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 151
+  // =============================================
+  {
+    category: "Log Cabin",
+    puzzleNumber: 152,
+    words: [
+      { word: "CAMP", hint: "Rustic retreat" },
+      { word: "LODGE", hint: "Wilderness shelter" },
+      { word: "RUSTIC", hint: "Simple, natural style" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 152
+  // =============================================
+  {
+    category: "Camera",
+    puzzleNumber: 153,
+    words: [
+      { word: "LENS", hint: "Focus element" },
+      { word: "FOCUS", hint: "Sharpness adjustment" },
+      { word: "TRIPOD", hint: "Stabilizing stand" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 153
+  // =============================================
+  {
+    category: "Meteor",
+    puzzleNumber: 154,
+    words: [
+      { word: "STAR", hint: "Shooting _____" },
+      { word: "COMET", hint: "Similar space object" },
+      { word: "SHOWER", hint: "Multiple meteors" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 154
+  // =============================================
+  {
+    category: "Ice Cream Treats",
+    puzzleNumber: 155,
+    words: [
+      { word: "CONE", hint: "Waffle or sugar holder" },
+      { word: "SCOOP", hint: "Round serving portion" },
+      { word: "SUNDAE", hint: "Ice cream with toppings" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 155
+  // =============================================
+  {
+    category: "UFO",
+    puzzleNumber: 156,
+    words: [
+      { word: "AREA", hint: "Nevada's mysterious Zone 51" },
+      { word: "DRONE", hint: "Unmanned aerial vehicle" },
+      { word: "CIRCLE", hint: "Crop formation shape" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 156
+  // =============================================
+  {
+    category: "Compliment Your Mirror Today",
+    puzzleNumber: 157,
+    words: [
+      { word: "KIND", hint: "Gentle and caring" },
+      { word: "BOOST", hint: "Lift your confidence" },
+      { word: "ENOUGH", hint: "You are more than ___" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 157
+  // =============================================
+  {
+    category: "Barbecue Spareribs",
+    puzzleNumber: 158,
+    words: [
+      { word: "RACK", hint: "Full slab of ribs" },
+      { word: "TANGY", hint: "Sharp, zesty flavor" },
+      { word: "GLAZED", hint: "Coated in sticky sauce" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 158
+  // =============================================
+  {
+    category: "Apple Turnover",
+    puzzleNumber: 159,
+    words: [
+      { word: "PUFF", hint: "Flaky pastry type" },
+      { word: "BAKED", hint: "Oven cooked" },
+      { word: "FOLDED", hint: "Pastry technique" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 159
+  // =============================================
+  {
+    category: "Chocolate Kisses",
+    puzzleNumber: 160,
+    words: [
+      { word: "FOIL", hint: "Shiny wrapper" },
+      { word: "COCOA", hint: "Chocolate base ingredient" },
+      { word: "NUGGET", hint: "Small bite-sized piece" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 160
+  // =============================================
+  {
+    category: "Tell the Truth",
+    puzzleNumber: 161,
+    words: [
+      { word: "WITH", hint: "Level ___ me" },
+      { word: "FRANK", hint: "Open and honest" },
+      { word: "CANDOR", hint: "Honest, direct speech" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 161
+  // =============================================
+  {
+    category: "Almonds",
+    puzzleNumber: 162,
+    words: [
+      { word: "BARK", hint: "Chocolate almond treat" },
+      { word: "WHOLE", hint: "Unsliced nut" },
+      { word: "SALTED", hint: "Classic seasoning" },
+    ],
+  },
+
 ];
 
 
@@ -1415,7 +2117,7 @@ export function getTodaysPuzzle() {
   puzzleDate.setHours(19, 30, 0, 0);
   
   // Anchor date: January 9, 2026 at 7:30 PM (when index 0 started)
-  const anchorDate = new Date(2026, 0, 9, 19, 30, 0, 0); // Month is 0-indexed, so 0 = January
+  const anchorDate = new Date(2026, 2, 23, 19, 30, 0, 0); // March 23, 2026 — realigned so fresh puzzles start now
   
   // Calculate days since anchor
   const daysSinceAnchor = Math.round((puzzleDate - anchorDate) / (1000 * 60 * 60 * 24));
