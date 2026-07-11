@@ -2122,12 +2122,17 @@ export function getTodaysPuzzle() {
   // Calculate days since anchor
   const daysSinceAnchor = Math.round((puzzleDate - anchorDate) / (1000 * 60 * 60 * 24));
   
-  // Get puzzle index (cycles through all puzzles)
+ // Get puzzle index (cycles through all puzzles)
   const puzzleIndex = ((daysSinceAnchor % puzzles.length) + puzzles.length) % puzzles.length;
-  
+
+  // Stable per-calendar-day key (e.g. "2026-07-10") — never shifts even if
+  // anchorDate is changed later, unlike puzzleNumber
+  const puzzleDateKey = puzzleDate.toISOString().split('T')[0];
+
   return {
     ...puzzles[puzzleIndex],
-    puzzleNumber: daysSinceAnchor + 1 // Display number starts at 1
+    puzzleNumber: daysSinceAnchor + 1, // Display number starts at 1
+    puzzleDateKey
   };
 }
 

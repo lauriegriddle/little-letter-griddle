@@ -98,14 +98,32 @@ if (lastWelcomeDate !== today) {
   localStorage.setItem('littleGriddleLastWelcome', today);
 }
       
-      // Check if today's puzzle already completed
-      const savedGame = localStorage.getItem(`littleGriddle_${gameData.puzzleNumber}`);
+     // Check if today's puzzle already completed
+      const savedGame = localStorage.getItem(`littleGriddle_${gameData.puzzleDateKey}`);
+      let loadedSavedGame = false;
+
       if (savedGame) {
         const parsed = JSON.parse(savedGame);
-        setWordStates(parsed.wordStates);
-        setHintsRevealed(parsed.hintsRevealed || Array(3).fill(false));
-        if (parsed.elapsedTime) setElapsedTime(parsed.elapsedTime);
-      } else {
+        // Guard: only trust the save if it actually matches today's words.
+        // Prevents a stale save (e.g. from before an anchor-date change)
+        // from displaying the wrong puzzle's letters under today's category.
+        const todaysWords = gameData.words.map(w => w.word);
+        const savedWordsMatch =
+          Array.isArray(parsed.puzzleWords) &&
+          parsed.puzzleWords.length === todaysWords.length &&
+          parsed.puzzleWords.every((w, i) => w === todaysWords[i]);
+
+        if (savedWordsMatch) {
+          setWordStates(parsed.wordStates);
+          setHintsRevealed(parsed.hintsRevealed || Array(3).fill(false));
+          if (parsed.elapsedTime) setElapsedTime(parsed.elapsedTime);
+          loadedSavedGame = true;
+        } else {
+          localStorage.removeItem(`littleGriddle_${gameData.puzzleDateKey}`);
+        }
+      }
+
+      if (!loadedSavedGame) {
         // Initialize word states with scrambled letters (client-side only)
         const initialStates = gameData.words.map(w => ({
           placed: Array(w.word.length).fill(''),
@@ -117,7 +135,7 @@ if (lastWelcomeDate !== today) {
         setStartTime(Date.now());
       }
     }
-  }, [gameData.puzzleNumber, gameData.words, scrambleWord]);
+  }, [gameData.puzzleDateKey, gameData.words, scrambleWord]);
 
   // Generate stars on client side only (avoids hydration mismatch)
   useEffect(() => {
@@ -134,16 +152,17 @@ if (lastWelcomeDate !== today) {
     setStars(generatedStars);
   }, []);
 
-  // Save game state
+ // Save game state
   useEffect(() => {
     if (typeof window !== 'undefined' && wordStates) {
-      localStorage.setItem(`littleGriddle_${gameData.puzzleNumber}`, JSON.stringify({
+      localStorage.setItem(`littleGriddle_${gameData.puzzleDateKey}`, JSON.stringify({
         wordStates,
         hintsRevealed,
-        elapsedTime
+        elapsedTime,
+        puzzleWords: gameData.words.map(w => w.word)
       }));
     }
-  }, [wordStates, hintsRevealed, elapsedTime, gameData.puzzleNumber]);
+  }, [wordStates, hintsRevealed, elapsedTime, gameData.puzzleDateKey, gameData.words]);
 
   // Update countdown timer
   useEffect(() => {
