@@ -2094,7 +2094,747 @@ export const puzzles = [
       { word: "SALTED", hint: "Classic seasoning" },
     ],
   },
+  // =============================================
+  // INDEX 162
+  // =============================================
+  {
+    category: "Sugar Cookie",
+    puzzleNumber: 163,
+    words: [
+      { word: "PIN", hint: "Rolling ___" },
+      { word: "ROLL", hint: "Flatten the dough" },
+      { word: "DOUGH", hint: "Unbaked mixture" },
+    ],
+  },
 
+  // =============================================
+  // INDEX 163
+  // =============================================
+  {
+    category: "French Fries",
+    puzzleNumber: 164,
+    words: [
+      { word: "CHIPS", hint: "British name for fries" },
+      { word: "WEDGE", hint: "Thick-cut potato style" },
+      { word: "WAFFLE", hint: "Grid-patterned fry cut" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 164
+  // =============================================
+  {
+    category: "Blueberry Muffin",
+    puzzleNumber: 165,
+    words: [
+      { word: "WARM", hint: "Fresh from the oven" },
+      { word: "BAKED", hint: "Oven cooked" },
+      { word: "RECIPE", hint: "Baking instructions" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 165
+  // =============================================
+  {
+    category: "Malala",
+    puzzleNumber: 166,
+    words: [
+      { word: "GIRL", hint: "Champion for g _ _ _ s' rights" },
+      { word: "NOBEL", hint: "___ Peace Prize winner" },
+      { word: "RIGHTS", hint: "Human equality" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 166
+  // =============================================
+  {
+    category: "Heat Wave",
+    puzzleNumber: 167,
+    words: [
+      { word: "BOIL", hint: "Reach maximum heat" },
+      { word: "SWEAT", hint: "Body's cooling system" },
+      { word: "SCORCH", hint: "Burn from intense heat" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 167
+  // =============================================
+  {
+    category: "Popsicles",
+    puzzleNumber: 168,
+    words: [
+      { word: "COLD", hint: "Icy temperature" },
+      { word: "STICKY", hint: "Melting residue" },
+      { word: "FROZEN", hint: "Solid from cold" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 168
+  // =============================================
+  {
+    category: "Hushpuppies",
+    puzzleNumber: 169,
+    words: [
+      { word: "SIDE", hint: "Accompaniment dish" },
+      { word: "FRIED", hint: "Deep-cooked in oil" },
+      { word: "CRISPY", hint: "Crunchy exterior" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 169
+  // =============================================
+  {
+    category: "Cherries",
+    puzzleNumber: 170,
+    words: [
+      { word: "BING", hint: "Popular dark variety" },
+      { word: "BLACK", hint: "Dark sweet variety" },
+      { word: "CANNED", hint: "Preserved in syrup" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 170
+  // =============================================
+  {
+    category: "Emoji",
+    puzzleNumber: 171,
+    words: [
+      { word: "FIRE", hint: "🔥 popular reaction" },
+      { word: "HEART", hint: "❤️ universal symbol" },
+      { word: "SMILEY", hint: "😊 classic expression" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 171
+  // =============================================
+  {
+    category: "Nelson Mandela",
+    puzzleNumber: 172,
+    words: [
+      { word: "FREE", hint: "Liberation from apartheid" },
+      { word: "UNITY", hint: "Bringing people together" },
+      { word: "LEGACY", hint: "Lasting impact" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 172
+  // =============================================
+  {
+    category: "Ice Cream",
+    puzzleNumber: 173,
+    words: [
+      { word: "MELT", hint: "What happens in the sun" },
+      { word: "SCOOP", hint: "Round serving portion" },
+      { word: "FLAVOR", hint: "Taste variety" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 173
+  // =============================================
+  {
+    category: "Moon Day",
+    puzzleNumber: 174,
+    words: [
+      { word: "STEP", hint: "One giant leap" },
+      { word: "LUNAR", hint: "Relating to the moon" },
+      { word: "APOLLO", hint: "Historic space program" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 174
+  // =============================================
+  {
+    category: "Junk Food",
+    puzzleNumber: 175,
+    words: [
+      { word: "CHIP", hint: "Crispy snack" },
+      { word: "CANDY", hint: "Sweet treat" },
+      { word: "GREASY", hint: "Oily texture" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 175
+  // =============================================
+  {
+    category: "Hammock",
+    puzzleNumber: 176,
+    words: [
+      { word: "HANG", hint: "Suspend between two points" },
+      { word: "SWING", hint: "Gentle back and forth motion" },
+      { word: "SNOOZE", hint: "Take a light nap" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 176
+  // =============================================
+  {
+    category: "Vanilla Ice Cream",
+    puzzleNumber: 177,
+    words: [
+      { word: "BEAN", hint: "Source of vanilla flavor" },
+      { word: "SCOOP", hint: "Round serving portion" },
+      { word: "FRENCH", hint: "Custard-based style" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 177
+  // =============================================
+  {
+    category: "Joke",
+    puzzleNumber: 178,
+    words: [
+      { word: "QUIP", hint: "Clever witty remark" },
+      { word: "CRACK", hint: "Tell a joke" },
+      { word: "COMEDY", hint: "Humor genre" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 178
+  // =============================================
+  {
+    category: "Carousel",
+    puzzleNumber: 179,
+    words: [
+      { word: "FAIR", hint: "Amusement event" },
+      { word: "MUSIC", hint: "Calliope sounds" },
+      { word: "ANIMAL", hint: "Horse or other ride figure" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 179
+  // =============================================
+  {
+    category: "Bagels",
+    puzzleNumber: 180,
+    words: [
+      { word: "SOFT", hint: "Fresh-baked texture" },
+      { word: "CHEWY", hint: "Dense satisfying bite" },
+      { word: "GARLIC", hint: "Savory popular variety" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 180
+  // =============================================
+  {
+    category: "Bagpipes",
+    puzzleNumber: 181,
+    words: [
+      { word: "WIND", hint: "Air-powered instrument" },
+      { word: "PIPER", hint: "Bagpipe player" },
+      { word: "SCOTCH", hint: "Scottish heritage" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 181
+  // =============================================
+  {
+    category: "Milk Chocolate",
+    puzzleNumber: 182,
+    words: [
+      { word: "MELT", hint: "Dissolves on your tongue" },
+      { word: "COCOA", hint: "Chocolate base ingredient" },
+      { word: "SMOOTH", hint: "Silky texture" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 182
+  // =============================================
+  {
+    category: "Tigers",
+    puzzleNumber: 183,
+    words: [
+      { word: "CLAW", hint: "Sharp retractable nail" },
+      { word: "TEETH", hint: "Powerful fangs" },
+      { word: "BENGAL", hint: "Most common tiger subspecies" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 183
+  // =============================================
+  {
+    category: "Paperback Books",
+    puzzleNumber: 184,
+    words: [
+      { word: "SOFT", hint: "Flexible cover material" },
+      { word: "BEACH", hint: "Perfect summer reading location" },
+      { word: "CLASSIC", hint: "Timeless literary work" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 184
+  // =============================================
+  {
+    category: "Avocado",
+    puzzleNumber: 185,
+    words: [
+      { word: "HASS", hint: "Most popular variety" },
+      { word: "TOAST", hint: "Trendy breakfast topping" },
+      { word: "SLICED", hint: "Cut into pieces" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 185
+  // =============================================
+  {
+    category: "MTV",
+    puzzleNumber: 186,
+    words: [
+      { word: "WANT", hint: "I ___ my MTV!" },
+      { word: "VIDEO", hint: "___ Killed the Radio Star song" },
+      { word: "CONCERT", hint: "Live music performance" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 186
+  // =============================================
+  {
+    category: "Coloring Book",
+    puzzleNumber: 187,
+    words: [
+      { word: "PAGE", hint: "Single sheet to color" },
+      { word: "RELAX", hint: "Calming activity helps you ______" },
+      { word: "CRAYON", hint: "Waxy coloring tool" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 187
+  // =============================================
+  {
+    category: "Watermelon",
+    puzzleNumber: 188,
+    words: [
+      { word: "RIND", hint: "Green striped outer layer" },
+      { word: "CHILL", hint: "Serve it cold" },
+      { word: "PICNIC", hint: "Outdoor summer meal" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 188
+  // =============================================
+  {
+    category: "Chocolate Chip Cookies",
+    puzzleNumber: 189,
+    words: [
+      { word: "BAKE", hint: "Cook in the oven" },
+      { word: "GOOEY", hint: "Soft and melty center" },
+      { word: "RECIPE", hint: "Baking instructions" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 189
+  // =============================================
+  {
+    category: "Traffic Light",
+    puzzleNumber: 190,
+    words: [
+      { word: "FLOW", hint: "Smooth movement of vehicles" },
+      { word: "SAFER", hint: "More protected" },
+      { word: "SIGNAL", hint: "Visual indicator" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 190
+  // =============================================
+  {
+    category: "Farmworker Appreciation",
+    puzzleNumber: 191,
+    words: [
+      { word: "HERO", hint: "Champion" },
+      { word: "EXERT", hint: "Apply great effort" },
+      { word: "UNSUNG", hint: "Not given enough credit" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 191
+  // =============================================
+  {
+    category: "Lighthouses",
+    puzzleNumber: 192,
+    words: [
+      { word: "LENS", hint: "Light-focusing element" },
+      { word: "GUIDE", hint: "Lead or direct safely" },
+      { word: "BEACON", hint: "Guiding light signal" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 192
+  // =============================================
+  {
+    category: "Happiness",
+    puzzleNumber: 193,
+    words: [
+      { word: "GLEE", hint: "Joyful delight" },
+      { word: "BLISS", hint: "Perfect happiness" },
+      { word: "THRILL", hint: "Exciting pleasure" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 193
+  // =============================================
+  {
+    category: "Rice Pudding",
+    puzzleNumber: 194,
+    words: [
+      { word: "MILK", hint: "Creamy base liquid" },
+      { word: "SUGAR", hint: "Sweetening ingredient" },
+      { word: "SPICES", hint: "Cinnamon or nutmeg additions" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 194
+  // =============================================
+  {
+    category: "S'mores",
+    puzzleNumber: 195,
+    words: [
+      { word: "SOME", hint: "Short for '____ more'" },
+      { word: "ROAST", hint: "Cook over open flame" },
+      { word: "GRAHAM", hint: "___ cracker base" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 195
+  // =============================================
+  {
+    category: "Hip Hop",
+    puzzleNumber: 196,
+    words: [
+      { word: "BEAT", hint: "Musical rhythm foundation" },
+      { word: "DANCE", hint: "Movement to the music" },
+      { word: "GROOVE", hint: "Rhythmic feel" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 196
+  // =============================================
+  {
+    category: "Middle Child",
+    puzzleNumber: 197,
+    words: [
+      { word: "TEAM", hint: "Group player" },
+      { word: "PEACE", hint: "Keeping harmony" },
+      { word: "UNIQUE", hint: "One of a kind" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 197
+  // =============================================
+  {
+    category: "Calligraphy",
+    puzzleNumber: 198,
+    words: [
+      { word: "NIBS", hint: "Pen tips for ink writing" },
+      { word: "BRUSH", hint: "Painting tool for lettering" },
+      { word: "STYLED", hint: "Decoratively formed" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 198
+  // =============================================
+  {
+    category: "Chameleon",
+    puzzleNumber: 199,
+    words: [
+      { word: "COLD", hint: "Temperature they sense" },
+      { word: "COLOR", hint: "What they change" },
+      { word: "LIZARD", hint: "Reptile family" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 199
+  // =============================================
+  {
+    category: "Relaxation",
+    puzzleNumber: 200,
+    words: [
+      { word: "SLOW", hint: "Take it easy" },
+      { word: "CHILL", hint: "Relax and unwind" },
+      { word: "UNWIND", hint: "Let go of tension" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 200
+  // =============================================
+  {
+    category: "Roller Coaster",
+    puzzleNumber: 201,
+    words: [
+      { word: "WILD", hint: "Thrilling and unpredictable" },
+      { word: "BUMPY", hint: "Rough and jolting ride" },
+      { word: "SCREAM", hint: "Reaction to the drop" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 201
+  // =============================================
+  {
+    category: "Thrift Shop",
+    puzzleNumber: 202,
+    words: [
+      { word: "DEAL", hint: "A bargain find" },
+      { word: "RETRO", hint: "Vintage style" },
+      { word: "RESALE", hint: "Selling secondhand" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 202
+  // =============================================
+  {
+    category: "Fajitas",
+    puzzleNumber: 203,
+    words: [
+      { word: "BEEF", hint: "Classic protein filling" },
+      { word: "ONION", hint: "Caramelized veggie topping" },
+      { word: "PEPPER", hint: "Colorful sautéed veggie" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 203
+  // =============================================
+  {
+    category: "Aviation",
+    puzzleNumber: 204,
+    words: [
+      { word: "HAWK", hint: "Kitty ____" },
+      { word: "PLANE", hint: "Flying machine" },
+      { word: "GLIDER", hint: "Engineless aircraft" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 204
+  // =============================================
+  {
+    category: "Bacon",
+    puzzleNumber: 205,
+    words: [
+      { word: "PORK", hint: "Pig-derived meat" },
+      { word: "SALTY", hint: "Savory cured flavor" },
+      { word: "SMOKED", hint: "Slow-cooked with wood" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 205
+  // =============================================
+  {
+    category: "Hawaiian Shirt",
+    puzzleNumber: 206,
+    words: [
+      { word: "LUAU", hint: "Island party" },
+      { word: "ALOHA", hint: "Hawaiian greeting on the shirt tag" },
+      { word: "FLORAL", hint: "Flower-printed pattern" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 206
+  // =============================================
+  {
+    category: "Tooth Fairy",
+    puzzleNumber: 207,
+    words: [
+      { word: "COIN", hint: "Reward left under pillow" },
+      { word: "MAGIC", hint: "Enchanting fairy power" },
+      { word: "PILLOW", hint: "Where the tooth is hidden" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 207
+  // =============================================
+  {
+    category: "Cuban Sandwich",
+    puzzleNumber: 208,
+    words: [
+      { word: "PORK", hint: "Primary protein filling" },
+      { word: "BREAD", hint: "Cuban roll base" },
+      { word: "CHEESE", hint: "Melted Swiss layer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 208
+  // =============================================
+  {
+    category: "Amelia Earhart",
+    puzzleNumber: 209,
+    words: [
+      { word: "SOLO", hint: "Flying alone" },
+      { word: "COAST", hint: "_____-to-coast journey" },
+      { word: "DEPART", hint: "Leave from Los Angeles, CA" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 209
+  // =============================================
+  {
+    category: "United States National Parks",
+    puzzleNumber: 210,
+    words: [
+      { word: "MESA", hint: "Flat-topped rock formation" },
+      { word: "GORGE", hint: "Deep narrow canyon" },
+      { word: "GEYSER", hint: "Yellowstone's hot spring" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 210
+  // =============================================
+  {
+    category: "Equality",
+    puzzleNumber: 211,
+    words: [
+      { word: "VOTE", hint: "The right to cast a ballot" },
+      { word: "WOMEN", hint: "Who gained voting rights" },
+      { word: "RIGHTS", hint: "Freedoms and liberties" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 211
+  // =============================================
+  {
+    category: "Bananas",
+    puzzleNumber: 212,
+    words: [
+      { word: "PEEL", hint: "Remove the outer skin" },
+      { word: "BREAD", hint: "Baked banana loaf" },
+      { word: "YELLOW", hint: "Ripe color" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 212
+  // =============================================
+  {
+    category: "St. Augustine, Florida",
+    puzzleNumber: 213,
+    words: [
+      { word: "FORT", hint: "Historic Castillo de San Marcos" },
+      { word: "GHOST", hint: "Famous haunted tours" },
+      { word: "BRIDGE", hint: "Lions guard this landmark" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 213
+  // =============================================
+  {
+    category: "Chop Suey",
+    puzzleNumber: 214,
+    words: [
+      { word: "STIR", hint: "____ Fry" },
+      { word: "SAUCE", hint: "Soy _____" },
+      { word: "SAVORY", hint: "Rich, satisfying flavor" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 214
+  // =============================================
+  {
+    category: "Whale Sharks",
+    puzzleNumber: 215,
+    words: [
+      { word: "FISH", hint: "Their true animal class" },
+      { word: "GIANT", hint: "Enormous in size" },
+      { word: "GENTLE", hint: "Peaceful despite their size" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 215
+  // =============================================
+  {
+    category: "Trail Mix",
+    puzzleNumber: 216,
+    words: [
+      { word: "NUTS", hint: "Almonds, cashews, peanuts" },
+      { word: "SEEDS", hint: "Sunflower or pumpkin additions" },
+      { word: "RAISINS", hint: "Dried grape sweetener" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 216
+  // =============================================
+  {
+    category: "No Rhyme and No Reason",
+    puzzleNumber: 217,
+    words: [
+      { word: "PINT", hint: "A unit of liquid measure" },
+      { word: "MONTH", hint: "30 or 31 days" },
+      { word: "ORANGE", hint: "A citrus fruit" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 217
+  // =============================================
+  {
+    category: "Earrings",
+    puzzleNumber: 218,
+    words: [
+      { word: "LOBE", hint: "Lower part of the ear" },
+      { word: "PEARL", hint: "Classic elegant gem" },
+      { word: "PIERCE", hint: "Make a hole for jewelry" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 218
+  // =============================================
+  {
+    category: "Skyscraper",
+    puzzleNumber: 219,
+    words: [
+      { word: "SWAY", hint: "What tall buildings do in wind" },
+      { word: "TOWER", hint: "Tall structure" },
+      { word: "FACADE", hint: "Exterior face of a building" },
+    ],
+  },
+  
 ];
 
 
@@ -2117,7 +2857,7 @@ export function getTodaysPuzzle() {
   puzzleDate.setHours(19, 30, 0, 0);
   
   // Anchor date: January 9, 2026 at 7:30 PM (when index 0 started)
-  const anchorDate = new Date(2026, 2, 23, 19, 30, 0, 0); // March 23, 2026 — realigned so fresh puzzles start now
+  const anchorDate = new Date(2026, 2, 26, 19, 30, 0, 0); // March 26, 2026 — realigned so fresh puzzles (Sugar Cookie onward) start today
   
   // Calculate days since anchor
   const daysSinceAnchor = Math.round((puzzleDate - anchorDate) / (1000 * 60 * 60 * 24));
