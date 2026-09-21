@@ -2834,6 +2834,239 @@ export const puzzles = [
       { word: "FACADE", hint: "Exterior face of a building" },
     ],
   },
+    // =============================================
+  // INDEX 219
+  // =============================================
+  {
+    category: "Macadamia Nuts",
+    puzzleNumber: 220,
+    words: [
+      { word: "OILY", hint: "Rich fatty texture" },
+      { word: "SALTY", hint: "Common seasoning" },
+      { word: "CREAMY", hint: "Smooth buttery flavor" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 220
+  // =============================================
+  {
+    category: "Bacon",
+    puzzleNumber: 221,
+    words: [
+      { word: "EGGS", hint: "Classic breakfast pairing" },
+      { word: "CRISP", hint: "Perfectly cooked texture" },
+      { word: "CHEESE", hint: "Melted topping" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 221
+  // =============================================
+  {
+    category: "Read a Book",
+    puzzleNumber: 222,
+    words: [
+      { word: "PAGE", hint: "Turn to the next one" },
+      { word: "NOVEL", hint: "Long-form fiction" },
+      { word: "AUTHOR", hint: "The writer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 222
+  // =============================================
+  {
+    category: "Google",
+    puzzleNumber: 223,
+    words: [
+      { word: "DATA", hint: "Information stored online" },
+      { word: "CLOUD", hint: "Online storage system" },
+      { word: "SEARCH", hint: "Look something up" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 223
+  // =============================================
+  {
+    category: "Star Trek",
+    puzzleNumber: 224,
+    words: [
+      { word: "BEAM", hint: "____ up!" },
+      { word: "SPOCK", hint: "Logical Vulcan officer" },
+      { word: "VULCAN", hint: "Spock's home planet" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 224
+  // =============================================
+  {
+    category: "Sudoku",
+    puzzleNumber: 225,
+    words: [
+      { word: "BOX", hint: "One of nine sections" },
+      { word: "GRID", hint: "9x9 playing field" },
+      { word: "BLOCK", hint: "3x3 mini section" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 225
+  // =============================================
+  {
+    category: "TV Dinner",
+    puzzleNumber: 226,
+    words: [
+      { word: "TRAY", hint: "Divided meal container" },
+      { word: "QUICK", hint: "Fast and convenient" },
+      { word: "FROZEN", hint: "Kept in the freezer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 226
+  // =============================================
+  {
+    category: "Make a Hat",
+    puzzleNumber: 227,
+    words: [
+      { word: "WEAR", hint: "Put it on your head" },
+      { word: "DESIGN", hint: "Create the look" },
+      { word: "FEDORA", hint: "Classic wide-brimmed style" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 227
+  // =============================================
+  {
+    category: "Video Games",
+    puzzleNumber: 228,
+    words: [
+      { word: "COIN", hint: "Insert ___ to play" },
+      { word: "SCORE", hint: "Track your points" },
+      { word: "PACMAN", hint: "Classic arcade chomper" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 228
+  // =============================================
+  {
+    category: "Fortune Cookies",
+    puzzleNumber: 229,
+    words: [
+      { word: "WISE", hint: "Sage advice inside" },
+      { word: "LUCKY", hint: "Numbers on the slip" },
+      { word: "NUMBER", hint: "Lucky ___ on the fortune" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 229
+  // =============================================
+  {
+    category: "The Golden Girls",
+    puzzleNumber: 230,
+    words: [
+      { word: "OLAF", hint: "St. ___, hometown of Rose" },
+      { word: "MIAMI", hint: "Florida city setting" },
+      { word: "CHEESE", hint: "_____cake at midnight!" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 230
+  // =============================================
+  {
+    category: "Peanut",
+    puzzleNumber: 231,
+    words: [
+      { word: "MATH", hint: "It takes about 540 peanuts to make a 12-ounce jar of peanut butter" },
+      { word: "SPACE", hint: "An astronaut took a peanut to the moon" },
+      { word: "CARVER", hint: "George Washington ___, peanut pioneer" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 231
+  // =============================================
+  {
+    category: "Play-Doh",
+    puzzleNumber: 232,
+    words: [
+      { word: "MOLD", hint: "Shape it into anything" },
+      { word: "AROMA", hint: "Distinctive nostalgic smell" },
+      { word: "SQUISH", hint: "Satisfying tactile action" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 232
+  // =============================================
+  {
+    category: "Boston",
+    puzzleNumber: 233,
+    words: [
+      { word: "BEAN", hint: "Baked ___, city nickname food" },
+      { word: "CREAM", hint: "Boston ___ pie" },
+      { word: "ACCENT", hint: "Distinctive way of speaking" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 233
+  // =============================================
+  {
+    category: "Rice Krispies Treats",
+    puzzleNumber: 234,
+    words: [
+      { word: "SNAP", hint: "____, Crackle, Pop" },
+      { word: "FIRST", hint: "The recipe was ___ printed on Kellogg's boxes in 1941" },
+      { word: "GLOBAL", hint: "Worldwide favorite treat" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 234
+  // =============================================
+  {
+    category: "Pirates",
+    puzzleNumber: 235,
+    words: [
+      { word: "AHOY", hint: "Sailor's greeting" },
+      { word: "MATEY", hint: "Friendly pirate address" },
+      { word: "SHIVER", hint: "___ me timbers!" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 235
+  // =============================================
+  {
+    category: "Fried Rice",
+    puzzleNumber: 236,
+    words: [
+      { word: "STIR", hint: "Toss in the wok" },
+      { word: "SAUCE", hint: "Soy ___ for flavor" },
+      { word: "GARLIC", hint: "Aromatic essential ingredient" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 236
+  // =============================================
+  {
+    category: "Earth, Wind, and Fire",
+    puzzleNumber: 237,
+    words: [
+      { word: "SONG", hint: "Musical composition" },
+      { word: "NIGHT", hint: "21st ___ of September" },
+      { word: "SUMMER", hint: "Season in the song" },
+    ],
+  },
   
 ];
 
