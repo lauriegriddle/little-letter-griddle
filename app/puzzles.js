@@ -3503,7 +3503,7 @@ export const puzzles = [
     category: "Chucky",
     puzzleNumber: 271,
     words: [
-      { word: "DOLL", hint: "What Chucky is" },
+      { word: "DOLL", hint: "Kind of toy Chucky is" },
       { word: "MOVIE", hint: "Child's Play film franchise" },
       { word: "HORROR", hint: "Scary film genre" },
     ],
@@ -3578,12 +3578,12 @@ export const puzzles = [
   // INDEX 276
   // =============================================
   {
-    category: "Halloween",
+    category: "Holiday",
     puzzleNumber: 277,
     words: [
-      { word: "JACK", hint: "____ o'lantern" },
-      { word: "TRICK", hint: "___ or treat!" },
-      { word: "TREATS", hint: "Candy collected door to door" },
+      { word: "CARD", hint: "Greeting _____" },
+      { word: "GIFTS", hint: "Presents" },
+      { word: "TREATS", hint: "Candy, cookies, and other goodies" },
     ],
   },
 
