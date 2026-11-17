@@ -3067,7 +3067,824 @@ export const puzzles = [
       { word: "SUMMER", hint: "Season in the song" },
     ],
   },
-  
+  // =============================================
+  // INDEX 237
+  // =============================================
+  {
+    category: "Autumn",
+    puzzleNumber: 238,
+    words: [
+      { word: "FALL", hint: "The season it begins" },
+      { word: "COLOR", hint: "Leaves change to brilliant hues" },
+      { word: "SEASON", hint: "One of four annual periods" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 238
+  // =============================================
+  {
+    category: "Pot Pie",
+    puzzleNumber: 239,
+    words: [
+      { word: "VENT", hint: "Steam hole in the crust" },
+      { word: "GRAVY", hint: "Rich savory sauce filling" },
+      { word: "CARROT", hint: "Orange veggie inside" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 239
+  // =============================================
+  {
+    category: "Punctuation",
+    puzzleNumber: 240,
+    words: [
+      { word: "MARK", hint: "Written symbol" },
+      { word: "SPACE", hint: "Gap between words" },
+      { word: "PERIOD", hint: "End of sentence dot" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 240
+  // =============================================
+  {
+    category: "Lobster",
+    puzzleNumber: 241,
+    words: [
+      { word: "CLAW", hint: "Powerful pinching appendage" },
+      { word: "OCEAN", hint: "Where they live" },
+      { word: "PINCER", hint: "Gripping claw tool" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 241
+  // =============================================
+  {
+    category: "Pancakes!",
+    puzzleNumber: 242,
+    words: [
+      { word: "HEAT", hint: "Griddle temperature" },
+      { word: "SYRUP", hint: "Sweet topping" },
+      { word: "BATTER", hint: "Pourable mix" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 242
+  // =============================================
+  {
+    category: "Chocolate Milk",
+    puzzleNumber: 243,
+    words: [
+      { word: "COLD", hint: "Best served chilled" },
+      { word: "COCOA", hint: "Chocolate base ingredient" },
+      { word: "POWDER", hint: "Mix-in form" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 243
+  // =============================================
+  {
+    category: "Good Neighbor",
+    puzzleNumber: 244,
+    words: [
+      { word: "TIDY", hint: "Neat and well-kept" },
+      { word: "QUIET", hint: "Respectful of others" },
+      { word: "FENCES", hint: "Good ones make good neighbors" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 244
+  // =============================================
+  {
+    category: "Coffee",
+    puzzleNumber: 245,
+    words: [
+      { word: "BEAN", hint: "Raw coffee seed" },
+      { word: "SUGAR", hint: "Common sweetener" },
+      { word: "LINGER", hint: "Savor slowly" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 245
+  // =============================================
+  {
+    category: "Chewing Gum",
+    puzzleNumber: 246,
+    words: [
+      { word: "MINT", hint: "Popular fresh flavor" },
+      { word: "BIRCH", hint: "Ancient tree bark variety" },
+      { word: "RESINS", hint: "Natural sticky substances" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 246
+  // =============================================
+  {
+    category: "Balloons",
+    puzzleNumber: 247,
+    words: [
+      { word: "FOIL", hint: "Shiny metallic material" },
+      { word: "PARTY", hint: "Celebratory occasion" },
+      { word: "COLORS", hint: "Bright festive hues" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 247
+  // =============================================
+  {
+    category: "Peanuts",
+    puzzleNumber: 248,
+    words: [
+      { word: "LUCY", hint: "She always pulls the football away" },
+      { word: "LINUS", hint: "He carries a security blanket" },
+      { word: "SNOOPY", hint: "The beagle on his doghouse" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 248
+  // =============================================
+  {
+    category: "Frugal Fun",
+    puzzleNumber: 249,
+    words: [
+      { word: "STAY", hint: "____-cation at home" },
+      { word: "LOCAL", hint: "Close to home activities" },
+      { word: "CREATE", hint: "Make your own fun" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 249
+  // =============================================
+  {
+    category: "Cinnamon Buns",
+    puzzleNumber: 250,
+    words: [
+      { word: "BAKE", hint: "Cook in the oven" },
+      { word: "SCENT", hint: "Warm spiced aroma" },
+      { word: "COMFORT", hint: "Cozy feeling food" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 250
+  // =============================================
+  {
+    category: "Teachers",
+    puzzleNumber: 251,
+    words: [
+      { word: "PLAN", hint: "Lesson preparation" },
+      { word: "CLASS", hint: "Group of students" },
+      { word: "LEADER", hint: "Guide and mentor" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 251
+  // =============================================
+  {
+    category: "Instagram",
+    puzzleNumber: 252,
+    words: [
+      { word: "POST", hint: "Share content online" },
+      { word: "PHOTO", hint: "Image shared on the app" },
+      { word: "MOBILE", hint: "Phone-based platform" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 252
+  // =============================================
+  {
+    category: "Pumpkin Seeds",
+    puzzleNumber: 253,
+    words: [
+      { word: "JACK", hint: "____ o'lantern" },
+      { word: "CARVE", hint: "Cut a pumpkin design" },
+      { word: "INSIDE", hint: "Found within the pumpkin" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 253
+  // =============================================
+  {
+    category: "Octopus",
+    puzzleNumber: 254,
+    words: [
+      { word: "BLUE", hint: "Color of their blood" },
+      { word: "ZERO", hint: "Number of bones they have" },
+      { word: "NINE", hint: "Number of brains they have" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 254
+  // =============================================
+  {
+    category: "John Lennon",
+    puzzleNumber: 255,
+    words: [
+      { word: "SOLO", hint: "His post-Beatles career" },
+      { word: "PEACE", hint: "Give ___ a chance" },
+      { word: "BEATLE", hint: "Famous band member" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 255
+  // =============================================
+  {
+    category: "Angel Food Cake",
+    puzzleNumber: 256,
+    words: [
+      { word: "AIRY", hint: "Light cloud-like texture" },
+      { word: "LAYER", hint: "Stack of cake tiers" },
+      { word: "FLUFFY", hint: "Soft and whipped" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 256
+  // =============================================
+  {
+    category: "Marathon",
+    puzzleNumber: 257,
+    words: [
+      { word: "PACE", hint: "Running speed strategy" },
+      { word: "WATER", hint: "Essential hydration station" },
+      { word: "ENERGY", hint: "Fuel for the long run" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 257
+  // =============================================
+  {
+    category: "Savings",
+    puzzleNumber: 258,
+    words: [
+      { word: "FUND", hint: "Money set aside" },
+      { word: "HABIT", hint: "Regular saving practice" },
+      { word: "BUDGET", hint: "Spending plan" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 258
+  // =============================================
+  {
+    category: "Yorkshire Pudding",
+    puzzleNumber: 259,
+    words: [
+      { word: "BEEF", hint: "Traditionally served with this roast" },
+      { word: "ROAST", hint: "Sunday ___ dinner" },
+      { word: "SUNDAY", hint: "Traditional serving day" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 259
+  // =============================================
+  {
+    category: "Winnie-the-Pooh",
+    puzzleNumber: 260,
+    words: [
+      { word: "OWL", hint: "The wise bird of the Hundred Acre Wood" },
+      { word: "BEAR", hint: "What Pooh is" },
+      { word: "ROBIN", hint: "Christopher ___, Pooh's best friend" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 260
+  // =============================================
+  {
+    category: "I Love Lucy",
+    puzzleNumber: 261,
+    words: [
+      { word: "SHOW", hint: "Classic TV program" },
+      { word: "ETHEL", hint: "Lucy's best friend and neighbor" },
+      { word: "RERUNS", hint: "Classic episodes still airing today" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 261
+  // =============================================
+  {
+    category: "The Boss",
+    puzzleNumber: 262,
+    words: [
+      { word: "HEAD", hint: "At the top of the organization" },
+      { word: "HONCHO", hint: "Head ___, the person in charge" },
+      { word: "BIGWIG", hint: "Important person of authority" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 262
+  // =============================================
+  {
+    category: "Sloth",
+    puzzleNumber: 263,
+    words: [
+      { word: "LAZY", hint: "Slow and idle" },
+      { word: "SLEEP", hint: "They do this up to 20 hours a day" },
+      { word: "DROWSY", hint: "Sleepy and sluggish" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 263
+  // =============================================
+  {
+    category: "Alaska",
+    puzzleNumber: 264,
+    words: [
+      { word: "NOME", hint: "Famous Iditarod finish city" },
+      { word: "MOOSE", hint: "Largest member of the deer family" },
+      { word: "TUNDRA", hint: "Vast frozen landscape" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 264
+  // =============================================
+  {
+    category: "Seafood Bisque",
+    puzzleNumber: 265,
+    words: [
+      { word: "CRAB", hint: "Popular shellfish ingredient" },
+      { word: "BROTH", hint: "Flavorful liquid base" },
+      { word: "SHRIMP", hint: "Small pink shellfish" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 265
+  // =============================================
+  {
+    category: "Chicken and Waffles",
+    puzzleNumber: 266,
+    words: [
+      { word: "SOUL", hint: "___ food tradition" },
+      { word: "SWEET", hint: "The waffle side of the pairing" },
+      { word: "SAVORY", hint: "The chicken side of the pairing" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 266
+  // =============================================
+  {
+    category: "Back to the Future",
+    puzzleNumber: 267,
+    words: [
+      { word: "FLUX", hint: "The ___ Capacitor makes time travel possible" },
+      { word: "CLOCK", hint: "One word of the Hill Valley landmark struck by lightning" },
+      { word: "TOWER", hint: "The other word of the Hill Valley landmark" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 267
+  // =============================================
+  {
+    category: "Vibrant Color",
+    puzzleNumber: 268,
+    words: [
+      { word: "GLOW", hint: "Radiant shining light" },
+      { word: "VIVID", hint: "Intensely bright" },
+      { word: "BRIGHT", hint: "Full of light and color" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 268
+  // =============================================
+  {
+    category: "World Series",
+    puzzleNumber: 269,
+    words: [
+      { word: "FALL", hint: "___ Classic, nickname for the championship" },
+      { word: "PINCH", hint: "___ hit, batting in for another player" },
+      { word: "TROPHY", hint: "Commissioner's ___, the gold-and-silver award" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 269
+  // =============================================
+  {
+    category: "Niagara Falls",
+    puzzleNumber: 270,
+    words: [
+      { word: "MIST", hint: "Heavy cloud of water droplets from the falls" },
+      { word: "GORGE", hint: "Deep canyon carved by the Niagara River" },
+      { word: "BRIDAL", hint: "___ Veil Falls, one of three waterfalls" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 270
+  // =============================================
+  {
+    category: "Chucky",
+    puzzleNumber: 271,
+    words: [
+      { word: "DOLL", hint: "What Chucky is" },
+      { word: "MOVIE", hint: "Child's Play film franchise" },
+      { word: "HORROR", hint: "Scary film genre" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 271
+  // =============================================
+  {
+    category: "Pumpkins",
+    puzzleNumber: 272,
+    words: [
+      { word: "VINE", hint: "Plant it grows on" },
+      { word: "CARVE", hint: "Cut a design into it" },
+      { word: "SPICE", hint: "Pumpkin ___ latte flavor" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 272
+  // =============================================
+  {
+    category: "Black Cat",
+    puzzleNumber: 273,
+    words: [
+      { word: "LUCK", hint: "Good or bad depending on the culture" },
+      { word: "ADOPT", hint: "Give one a forever home" },
+      { word: "FELINE", hint: "Cat family member" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 273
+  // =============================================
+  {
+    category: "Stuffed Animals",
+    puzzleNumber: 274,
+    words: [
+      { word: "BEAR", hint: "Classic stuffed animal" },
+      { word: "PLUSH", hint: "Soft fabric material" },
+      { word: "CUDDLY", hint: "Soft and huggable" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 274
+  // =============================================
+  {
+    category: "Internet",
+    puzzleNumber: 275,
+    words: [
+      { word: "SURF", hint: "Browse the web" },
+      { word: "EMAIL", hint: "Electronic message" },
+      { word: "SEARCH", hint: "Look something up online" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 275
+  // =============================================
+  {
+    category: "Candy Corn",
+    puzzleNumber: 276,
+    words: [
+      { word: "CONE", hint: "Its triangular shape" },
+      { word: "WHITE", hint: "Top color of the candy" },
+      { word: "ORANGE", hint: "Middle color of the candy" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 276
+  // =============================================
+  {
+    category: "Halloween",
+    puzzleNumber: 277,
+    words: [
+      { word: "JACK", hint: "____ o'lantern" },
+      { word: "TRICK", hint: "___ or treat!" },
+      { word: "TREATS", hint: "Candy collected door to door" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 277
+  // =============================================
+  {
+    category: "Vegan",
+    puzzleNumber: 278,
+    words: [
+      { word: "TOFU", hint: "Plant-based protein" },
+      { word: "PLANT", hint: "___ based diet" },
+      { word: "CARBON", hint: "Lower ___ footprint" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 278
+  // =============================================
+  {
+    category: "Ohio",
+    puzzleNumber: 279,
+    words: [
+      { word: "FLAG", hint: "State banner and symbol" },
+      { word: "RIVER", hint: "Ohio ___, southern border" },
+      { word: "SIGNAL", hint: "World's first electric traffic ___ in 1914" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 279
+  // =============================================
+  {
+    category: "How Cliche!",
+    puzzleNumber: 280,
+    words: [
+      { word: "TIME", hint: "This flies when you're having fun" },
+      { word: "NEVER", hint: "Better late than this" },
+      { word: "SILVER", hint: "Every cloud has this color lining" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 280
+  // =============================================
+  {
+    category: "Easy-Bake Oven",
+    puzzleNumber: 281,
+    words: [
+      { word: "BULB", hint: "Light ___, the original heat source" },
+      { word: "TREAT", hint: "Sweet baked reward" },
+      { word: "KENNER", hint: "Original toy company maker" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 281
+  // =============================================
+  {
+    category: "Monopoly",
+    puzzleNumber: 282,
+    words: [
+      { word: "PARK", hint: "___ Place, most expensive property" },
+      { word: "TOKEN", hint: "Metal playing piece" },
+      { word: "TITLE", hint: "___ Deed card" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 282
+  // =============================================
+  {
+    category: "Saxophone",
+    puzzleNumber: 283,
+    words: [
+      { word: "REED", hint: "Vibrating thin piece that makes sound" },
+      { word: "SINGLE", hint: "Created by one lone inventor" },
+      { word: "BALANCE", hint: "Designed to fill a gap between brass and woodwinds" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 283
+  // =============================================
+  {
+    category: "Getting Outside",
+    puzzleNumber: 284,
+    words: [
+      { word: "PLAY", hint: "Fun outdoor activity" },
+      { word: "GREEN", hint: "Color found outdoors that makes it easier to get moving" },
+      { word: "BOOSTER", hint: "Spending time outside is a brain ___" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 284
+  // =============================================
+  {
+    category: "Cappuccino",
+    puzzleNumber: 285,
+    words: [
+      { word: "MILK", hint: "Creamy dairy component" },
+      { word: "THICK", hint: "Rich and dense foam texture" },
+      { word: "LAYER", hint: "Espresso, steamed milk, then foam" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 285
+  // =============================================
+  {
+    category: "Louisiana",
+    puzzleNumber: 286,
+    words: [
+      { word: "JAZZ", hint: "Music born in New Orleans" },
+      { word: "CAJUN", hint: "Spicy Acadian cuisine style" },
+      { word: "CREOLE", hint: "Blend of French, Spanish, and African traditions" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 286
+  // =============================================
+  {
+    category: "Sesame Street",
+    puzzleNumber: 287,
+    words: [
+      { word: "BIRD", hint: "Big ___, the tall yellow friend" },
+      { word: "COUNT", hint: "Vampire who loves numbers" },
+      { word: "GROUCH", hint: "Oscar the ___ lives in a trash can" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 287
+  // =============================================
+  {
+    category: "Veterans",
+    puzzleNumber: 288,
+    words: [
+      { word: "AIR", hint: "____ Force" },
+      { word: "ARMY", hint: "Largest U.S. military branch" },
+      { word: "NAVY", hint: "Sea-going military branch" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 288
+  // =============================================
+  {
+    category: "Chicken Soup for the Soul",
+    puzzleNumber: 289,
+    words: [
+      { word: "HOPE", hint: "Optimistic expectation" },
+      { word: "TRUST", hint: "Confidence in another" },
+      { word: "WARMTH", hint: "Cozy, comforting feeling" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 289
+  // =============================================
+  {
+    category: "The Lion King",
+    puzzleNumber: 290,
+    words: [
+      { word: "NALA", hint: "Simba's childhood friend and queen" },
+      { word: "SIMBA", hint: "The lion cub who would be king" },
+      { word: "HAKUNA", hint: "___ Matata, no worries!" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 290
+  // =============================================
+  {
+    category: "Guacamole",
+    puzzleNumber: 291,
+    words: [
+      { word: "DIP", hint: "Scoop it up with a chip" },
+      { word: "HASS", hint: "Most popular avocado variety" },
+      { word: "SPICY", hint: "Adds a jalapeño kick" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 291
+  // =============================================
+  {
+    category: "I Love to Write",
+    puzzleNumber: 292,
+    words: [
+      { word: "POEM", hint: "Verses with rhythm or rhyme" },
+      { word: "STORY", hint: "Tale with a beginning and end" },
+      { word: "PENCIL", hint: "Graphite writing tool" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 292
+  // =============================================
+  {
+    category: "Indiana",
+    puzzleNumber: 293,
+    words: [
+      { word: "CORN", hint: "Major Midwest crop" },
+      { word: "STONE", hint: "Indiana limestone is famous _____" },
+      { word: "RACING", hint: "Sport at the Indy 500" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 293
+  // =============================================
+  {
+    category: "Bread",
+    puzzleNumber: 294,
+    words: [
+      { word: "LOAF", hint: "One whole shaped bake" },
+      { word: "BAKED", hint: "Cooked in the oven" },
+      { word: "BUTTER", hint: "Classic spread" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 294
+  // =============================================
+  {
+    category: "Apple Cider",
+    puzzleNumber: 295,
+    words: [
+      { word: "WARM", hint: "Best served hot on a chilly day" },
+      { word: "SWEET", hint: "Sugary flavor" },
+      { word: "SPICED", hint: "Mulled with cinnamon and cloves" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 295
+  // =============================================
+  {
+    category: "Carbonated Beverage",
+    puzzleNumber: 296,
+    words: [
+      { word: "POP", hint: "Midwestern word for soda" },
+      { word: "COKE", hint: "Famous red-labeled cola" },
+      { word: "PEPSI", hint: "Coke's biggest rival" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 296
+  // =============================================
+  {
+    category: "A Charlie Brown Thanksgiving",
+    puzzleNumber: 297,
+    words: [
+      { word: "PING", hint: "_____ Pong table used for the feast" },
+      { word: "TOAST", hint: "Charlie Brown's dinner bread" },
+      { word: "SCREAM", hint: "Charlie Brown's cry of anguish" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 297
+  // =============================================
+  {
+    category: "Rocky",
+    puzzleNumber: 298,
+    words: [
+      { word: "GOAL", hint: "Something to aim for" },
+      { word: "GONNA", hint: "'_____ Fly Now' theme song" },
+      { word: "BOXING", hint: "Sport of the film" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 298
+  // =============================================
+  {
+    category: "Cranberry",
+    puzzleNumber: 299,
+    words: [
+      { word: "CAN", hint: "Jellied sauce often comes in this" },
+      { word: "TART", hint: "Sharp, puckery flavor" },
+      { word: "FRUIT", hint: "Berry, botanically speaking" },
+    ],
+  },
+
+  // =============================================
+  // INDEX 299
+  // =============================================
+  {
+    category: "Jukebox",
+    puzzleNumber: 300,
+    words: [
+      { word: "HITS", hint: "Popular songs on the playlist" },
+      { word: "JOINT", hint: "Establishment known as a juke ____" },
+      { word: "NICKEL", hint: "Five-cent coin that once played a song" },
+    ],
+  },
 ];
 
 
